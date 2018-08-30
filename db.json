@@ -1,10 +1,179 @@
 {
-  "compilerOptions": {
-    "module": "commonjs",
-    "target": "es5",
-    "sourceMap": true
-  },
-  "exclude": [
-    "node_modules"
+  "questions": [
+    {
+      "id": 1,
+      "question": "Jaki jest Twój NATURALNY KOLOR WŁOSÓW?",
+      "answers": [
+        {
+          "type": "wiosna",
+          "content": "JASNY I CIEPŁY:jasny złoty blond, truskawkowy blond, jasny kasztanowy, miedziany, jasnobrązowy"
+        },
+        {
+          "type": "lato",
+          "content": "JASNY i ZIMNY: jasny do głębokiego popielatego blondu, od lekkiego do średniego brązu, szare, często nazywane 'mysie'"
+        },
+        {
+          "type": "jesień",
+          "content": "GŁĘBOKI i CIEPŁY: złoty brąz/rudy, kasztanowy, ciepły średni lub ciemnobrązowy, głeboki kasztan"
+        },
+        {
+          "type": "zima",
+          "content": "GŁĘBOKI and ZIMNY: od średnio do ciemnojesionowego brązu, ciemno-brązowy, czarny, szary, srebrny"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "Jaki kolor mają TWOJE OCZY?",
+      "answers": [
+        {
+          "type": "wiosna",
+          "content": "JASNE i CIEPŁE: jasno-niebieskie lub jasno-zielone, jasne orzechowe lub ciepły brąz lub topaz"
+        },
+        {
+          "type": "lato",
+          "content": "JASNE i ZIMNE: szaroniebieskie lub szarozielone, jasnobrązowe, orzechowe"
+        },
+        {
+          "type": "jesień",
+          "content": "GŁĘBOKIE i CIEPŁE: orzechowy, ciepły brąz, złoto-zielone, ciemno-brązowe"
+        },
+        {
+          "type": "zima",
+          "content": "GŁĘBOKIE i ZIMNE: jasno-niebieskie lub jasno-zielone, topaz, szaroniebieskie, zielone lub brązowe, duży kontrast pomiędzy tęczówką a białkiem"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "Jak określiłabyś TON SWOJEJ SKÓRY?",
+      "answers": [
+        {
+          "type": "wiosna",
+          "content": "LEKKI i CIEPŁY: brzoskwiniowa, kremowa, jasno-beżowa, kość słoniowa, złoty lub brzoskwiniowy podcień, może mieć piegi"
+        },
+        {
+          "type": "lato",
+          "content": "GŁĘBOKI i CIEPŁY: beżowa, kość słoniowa, kremowa, jasny lub średnio neutralny beżowy, brązowy, karmelowy, latte, ciepły oliwkowy ze złotym lub czerwonym odcieniem, może mieć piegi"
+        },
+        {
+          "type": "jesień",
+          "content": "LEKKI i CHŁODNY: jasny lub jasny beż, różowy beż, porcelana, jaśniejszy neutralny beż z różowym odcieniem"
+        },
+        {
+          "type": "zima",
+          "content": "GŁĘBOKI i CHŁODNY: jasny lub jasny beżowy, mleczny biały, różowy beżowy, porcelana, jasny lub średnio neutralny beżowy z różowym odcieniem"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "Czy masz PIEGI?",
+      "answers": [
+        {
+          "type": "lato",
+          "content": "Tak"
+        },
+        {
+          "type": "zima",
+          "content": "Nie"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "Jaki kolor mają Twoje ŻYŁY?",
+      "answers": [
+        {
+          "type": "lato",
+          "content": "Są niebieskie"
+        },
+        {
+          "type": "zima",
+          "content": "Są zielone"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "SREBRO CZY ZŁOTO?",
+      "answers": [
+        {
+          "type": "lato",
+          "content": "Złoto"
+        },
+        {
+          "type": "zima",
+          "content": "Srebro"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "Jaki kolor sukienki podkreśla TWOJĄ URODĘ?",
+      "answers": [
+        {
+          "type": "wiosna",
+          "content": "JASNY: odcienie morelowe, blady i jasny szary"
+        },
+        {
+          "type": "lato",
+          "content": "DELIKATNY: odcienie delikatnego różu, jasna purpura, angielska lawenda"
+        },
+        {
+          "type": "jesień",
+          "content": "CIEPŁY: łososiowy, jasne złoto, dynia i ciemna czekolada"
+        },
+        {
+          "type": "zima",
+          "content": "MOCNY/ZDECYDOWANY: odcienie mocnej czerwieni, brąz lub indygo i onyks"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "Jaki kolor szminki podkreśla TWOJĄ TWARZ?",
+      "answers": [
+        {
+          "type": "wiosna",
+          "content": "LIGHT: colors like light coral and peach or light rose and light pink"
+        },
+        {
+          "type": "lato",
+          "content": "DEEP: colors like deep warm red and chocolate or burgundy and plum"
+        },
+        {
+          "type": "jesień",
+          "content": "CLEAR: colors like bright warm red and hot pink or true red and magenta"
+        },
+        {
+          "type": "zima",
+          "content": "COOL: colors like raspberry and cool pink or deep cool pink and fuchsia"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "Do której z poniższych gwiazd jesteś najbardziej podobna?",
+      "answers": [
+        {
+          "type": "wiosna",
+          "content": "SOFT and WARM: Drew Barrymore and Gisele Bundchen"
+        },
+        {
+          "type": "lato",
+          "content": "SOFT and COOL: Ellen Pompeo and Jennifer Aniston"
+        },
+        {
+          "type": "jesień",
+          "content": "WARM and PEACHY: Amy Adams and Michelle Williams"
+        },
+        {
+          "type": "zima",
+          "content": "COOL and BRIGHT: Liv Tyler and Selma Blair"
+        }
+
+      ]
+    }
   ]
 }

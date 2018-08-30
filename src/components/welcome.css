@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+}
+
+.main-width {
+    width: 1300px;
+    margin: 0 auto;
+    padding-left: 65px;
+    padding-right: 65px;
+}
+
+.clearfix::before, .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*MAIN*/
+
+#main {
+    background: linear-gradient(#fafafa, #c6cbcf);
+}
+
+
+img {
+    width: 550px;
+    margin-top: 70px;
+    padding-left: -40px;
+    float: left;
+}
+
+.about {
+    float: left;
+    text-align: center;
+    margin-top: 280px;
+    margin-left: 50px;
+    width: 500px;
+}
+
+.about h1 {
+    word-spacing: 3px;
+    font-size: 2px;
+    font-weight: 500;
+}
+
+.doTestButton {
+    color: #ffffff;
+    background-color: #E9967A;
+    width: 250px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#main .about h1 {
+    font-size: 40px;
+}
+
+
+
+
+
+/*#main .about button {*/
+    /*color: #ffffff;*/
+    /*background-color: #CC0066;*/
+    /*width: 250px;*/
+    /*height: 50px;*/
+    /*text-align: center;*/
+    /*line-height: 50px;*/
+    /*border-radius: 10px;*/
+    /*border: none;*/
+    /*font-size: 20px;*/
+    /*cursor: pointer;*/
+/*}*/
