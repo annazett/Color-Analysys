@@ -8,13 +8,6 @@ html, body {
     width: 100%;
 }
 
-.zima {
-    width: 1300px;
-    margin: 0 auto;
-    padding-left: 65px;
-    padding-right: 65px;
-    /*background: linear-gradient(#fafafa, #c6cbcf);*/
-}
 
 .clearfix::before, .clearfix::after {
     content: "";
@@ -22,45 +15,262 @@ html, body {
     clear: both;
 }
 
+/*WIOSNA*/
 
+.spring {
+    width: 1300px;
+    margin: 0 auto;
+    padding-left: 65px;
+    padding-right: 65px;
+}
 
-
-/*img {*/
-    /*width: 550px;*/
+.springFoto {
+    width: auto;
+    height: 700px;
     /*margin-top: 70px;*/
-    /*padding-left: -40px;*/
-    /*float: left;*/
-/*}*/
+    margin-left: -65px;
+    float: left;
+}
 
-/*.about {*/
-    /*float: left;*/
-    /*text-align: center;*/
-    /*margin-top: 280px;*/
-    /*margin-left: 50px;*/
-    /*width: 500px;*/
-/*}*/
 
-/*.about h1 {*/
-    /*word-spacing: 3px;*/
-    /*font-size: 2px;*/
-    /*font-weight: 500;*/
-/*}*/
 
-/*.doTestButton {*/
-    /*color: #ffffff;*/
-    /*background-color: #E9967A;*/
-    /*width: 250px;*/
-    /*height: 50px;*/
-    /*text-align: center;*/
-    /*line-height: 50px;*/
-    /*border-radius: 10px;*/
-    /*border: none;*/
-    /*font-size: 20px;*/
-    /*cursor: pointer;*/
-/*}*/
+.aboutSpring {
+    float: left;
+    margin-top: 40px;
+    margin-left: 50px;
+    width: 650px;
+    text-align: justify;
+    background: white;
+}
 
-/*#main .about h1 {*/
-    /*font-size: 40px;*/
-/*}*/
+.aboutSpring h1 {
+    word-spacing: 3px;
+    font-size: 50px;
+    color: 	#808080;
+    font-weight: 500;
+    text-align: right;
+}
 
+.aboutSpring h2 {
+    word-spacing: 3px;
+    font-size: 25px;
+    color: 	#808080;
+    font-weight: 300;
+    text-align: end;
+}
+
+.springDescription {
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.springDescription p {
+    font-size: 18px;
+}
+
+.springColors {
+    width: 620px;
+    margin-top: -2px;
+    height: auto;
+}
+
+/*SUMMER*/
+
+.summer {
+    width: 1300px;
+    margin: 0 auto;
+    padding-left: 65px;
+    padding-right: 65px;
+}
+
+.summerFoto {
+    width: auto;
+    height: 700px;
+    /*margin-top: 70px;*/
+    margin-left: -65px;
+    float: left;
+}
+
+
+
+.aboutSummer {
+    float: left;
+    margin-top: 40px;
+    margin-left: 50px;
+    width: 650px;
+    text-align: justify;
+    background: white;
+}
+
+.aboutSummer h1 {
+    word-spacing: 3px;
+    font-size: 50px;
+    color: 	#808080;
+    font-weight: 500;
+    text-align: right;
+}
+
+.aboutSummer h2 {
+    word-spacing: 3px;
+    font-size: 25px;
+    color: 	#808080;
+    font-weight: 300;
+    text-align: end;
+}
+
+.summerDescription {
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.summerDescription p {
+    font-size: 18px;
+}
+
+.summerColors {
+    width: 620px;
+    margin-top: -2px;
+    height: auto;
+}
+
+
+/*AUTUMM*/
+
+.autumm {
+    width: 1300px;
+    margin: 0 auto;
+    padding-left: 65px;
+    padding-right: 65px;
+}
+
+.autummFoto {
+    width: auto;
+    height: 700px;
+    /*margin-top: 70px;*/
+    margin-left: -65px;
+    float: left;
+}
+
+
+
+.aboutAutumm {
+    float: left;
+    margin-top: 40px;
+    margin-left: 50px;
+    width: 650px;
+    text-align: justify;
+    background: white;
+}
+
+.aboutAutumm h1 {
+    word-spacing: 3px;
+    font-size: 50px;
+    color: 	#808080;
+    font-weight: 500;
+    text-align: right;
+}
+
+.aboutAutumm h2 {
+    word-spacing: 3px;
+    font-size: 25px;
+    color: 	#808080;
+    font-weight: 300;
+    text-align: end;
+}
+
+.autummDescription {
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.autummDescription p {
+    font-size: 18px;
+}
+
+.autummColors {
+    width: 620px;
+    margin-top: -2px;
+    height: auto;
+}
+
+
+/*ZIMA*/
+
+.winter {
+    width: 1300px;
+    margin: 0 auto;
+    padding-left: 65px;
+    padding-right: 65px;
+}
+
+.winterFoto {
+    width: auto;
+    height: 700px;
+    /*margin-top: 70px;*/
+    margin-left: -65px;
+    float: left;
+}
+
+
+
+.aboutWinter {
+    float: left;
+    margin-top: 40px;
+    margin-left: 50px;
+    width: 650px;
+    text-align: justify;
+    background: white;
+}
+
+.aboutWinter h1 {
+    word-spacing: 3px;
+    font-size: 50px;
+    color: 	#808080;
+    font-weight: 500;
+    text-align: right;
+}
+
+.aboutWinter h2 {
+    word-spacing: 3px;
+    font-size: 25px;
+    color: 	#808080;
+    font-weight: 300;
+    text-align: end;
+}
+
+.winterDescription {
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.winterDescription p {
+    font-size: 18px;
+}
+
+.winterColors {
+    width: 620px;
+    margin-top: -2px;
+    height: auto;
+}
+
+
+.comeBackButton {
+    background-color: yellow;
+    color: black;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    font-size: 13px;
+    cursor: pointer;
+    float: right;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.yourColors {
+    color: dimgrey;
+    font-weight: bold;
+}
 

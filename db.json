@@ -6,19 +6,23 @@
       "answers": [
         {
           "type": "wiosna",
-          "content": "JASNY I CIEPŁY:jasny złoty blond, truskawkowy blond, jasny kasztanowy, miedziany, jasnobrązowy"
+          "content": "JASNY I CIEPŁY:jasny złoty blond, truskawkowy blond, jasny kasztanowy, miedziany, jasnobrązowy",
+          "img": "Pytania/Pyt_1/hair_spring.jpg"
         },
         {
           "type": "lato",
-          "content": "JASNY i ZIMNY: jasny do głębokiego popielatego blondu, od lekkiego do średniego brązu, szare, często nazywane 'mysie'"
+          "content": "JASNY i ZIMNY: jasny do głębokiego popielatego blondu, od lekkiego do średniego brązu, szare, często nazywane 'mysie'",
+          "img": "Pytania/Pyt_1/hair_summer.jpg"
         },
         {
           "type": "jesień",
-          "content": "GŁĘBOKI i CIEPŁY: złoty brąz/rudy, kasztanowy, ciepły średni lub ciemnobrązowy, głeboki kasztan"
+          "content": "GŁĘBOKI i CIEPŁY: złoty brąz/rudy, kasztanowy, ciepły średni lub ciemnobrązowy, głeboki kasztan",
+          "img": "Pytania/Pyt_1/hair_autumm.jpg"
         },
         {
           "type": "zima",
-          "content": "GŁĘBOKI and ZIMNY: od średnio do ciemnojesionowego brązu, ciemno-brązowy, czarny, szary, srebrny"
+          "content": "GŁĘBOKI and ZIMNY: od średnio do ciemnojesionowego brązu, ciemno-brązowy, czarny, szary, srebrny",
+          "img": "Pytania/Pyt_1/hair_winter.jpg"
         }
       ]
     },
@@ -28,19 +32,23 @@
       "answers": [
         {
           "type": "wiosna",
-          "content": "JASNE i CIEPŁE: jasno-niebieskie lub jasno-zielone, jasne orzechowe lub ciepły brąz lub topaz"
+          "content": "JASNE i CIEPŁE: jasno-niebieskie lub jasno-zielone, jasne orzechowe lub ciepły brąz lub topaz",
+          "img": "Pytania/Pyt_2/eyes_spring.jpg"
         },
         {
           "type": "lato",
-          "content": "JASNE i ZIMNE: szaroniebieskie lub szarozielone, jasnobrązowe, orzechowe"
+          "content": "JASNE i ZIMNE: szaroniebieskie lub szarozielone, jasnobrązowe, orzechowe",
+          "img": "Pytania/Pyt_2/eyes_summer.jpg"
         },
         {
           "type": "jesień",
-          "content": "GŁĘBOKIE i CIEPŁE: orzechowy, ciepły brąz, złoto-zielone, ciemno-brązowe"
+          "content": "GŁĘBOKIE i CIEPŁE: orzechowy, ciepły brąz, złoto-zielone, ciemno-brązowe",
+          "img": "Pytania/Pyt_2/eyes_autumm.jpg"
         },
         {
           "type": "zima",
-          "content": "GŁĘBOKIE i ZIMNE: jasno-niebieskie lub jasno-zielone, topaz, szaroniebieskie, zielone lub brązowe, duży kontrast pomiędzy tęczówką a białkiem"
+          "content": "GŁĘBOKIE i ZIMNE: jasno-niebieskie lub jasno-zielone, topaz, szaroniebieskie, zielone lub brązowe, duży kontrast pomiędzy tęczówką a białkiem",
+          "img": "Pytania/Pyt_2/eyes_winter.jpg"
         }
       ]
     },
@@ -50,19 +58,23 @@
       "answers": [
         {
           "type": "wiosna",
-          "content": "LEKKI i CIEPŁY: brzoskwiniowa, kremowa, jasno-beżowa, kość słoniowa, złoty lub brzoskwiniowy podcień, może mieć piegi"
+          "content": "LEKKI i CIEPŁY: brzoskwiniowa, kremowa, jasno-beżowa, kość słoniowa, złoty lub brzoskwiniowy podcień, może mieć piegi",
+          "img": "Pytania/Pyt_3/skin_spring.jpg"
         },
         {
           "type": "lato",
-          "content": "GŁĘBOKI i CIEPŁY: beżowa, kość słoniowa, kremowa, jasny lub średnio neutralny beżowy, brązowy, karmelowy, latte, ciepły oliwkowy ze złotym lub czerwonym odcieniem, może mieć piegi"
+          "content": "LEKKI i CHŁODNY: jasny lub jasny beż, różowy beż, porcelana, jaśniejszy neutralny beż z różowym odcieniem",
+          "img": "Pytania/Pyt_3/skin_summer.jpg"
         },
         {
           "type": "jesień",
-          "content": "LEKKI i CHŁODNY: jasny lub jasny beż, różowy beż, porcelana, jaśniejszy neutralny beż z różowym odcieniem"
+          "content": "GŁĘBOKI i CIEPŁY: beżowa, kość słoniowa, kremowa, jasny lub średnio neutralny beżowy, brązowy, karmelowy, latte, ciepły oliwkowy ze złotym lub czerwonym odcieniem, może mieć piegi",
+          "img": "Pytania/Pyt_3/skin_autumm.jpg"
         },
         {
           "type": "zima",
-          "content": "GŁĘBOKI i CHŁODNY: jasny lub jasny beżowy, mleczny biały, różowy beżowy, porcelana, jasny lub średnio neutralny beżowy z różowym odcieniem"
+          "content": "GŁĘBOKI i CHŁODNY: jasny lub jasny beżowy, mleczny biały, różowy beżowy, porcelana, jasny lub średnio neutralny beżowy z różowym odcieniem",
+          "img": "Pytania/Pyt_3/skin_winter.jpg"
         }
       ]
     },
@@ -71,40 +83,48 @@
       "question": "Czy masz PIEGI?",
       "answers": [
         {
-          "type": "lato",
-          "content": "Tak"
+          "type": "jesień",
+          "content": "Tak",
+          "img": "Pytania/Pyt_4/piegi.jpg"
+
         },
         {
           "type": "zima",
-          "content": "Nie"
+          "content": "Nie",
+          "img": "Pytania/Pyt_4/brak_piegow.jpeg"
+
         }
       ]
     },
     {
       "id": 5,
-      "question": "Jaki kolor mają Twoje ŻYŁY?",
+      "question": "Jaki kolor mają Twoje ŻYŁY? Spójrz na swój nadgarstek, tam je najlepiej widać:)",
       "answers": [
         {
           "type": "lato",
-          "content": "Są niebieskie"
+          "content": "Są niebieskie lub purpurowe",
+          "img": "Pytania/Pyt_5/blue.jpg"
         },
         {
-          "type": "zima",
-          "content": "Są zielone"
+          "type": "jesień",
+          "content": "Są zielone lub oliwkowe",
+          "img": "Pytania/Pyt_5/green.jpg"
         }
       ]
     },
     {
       "id": 6,
-      "question": "SREBRO CZY ZŁOTO?",
+      "question": "SREBRO CZY ZŁOTO? W którym kolorze lepiej się czujesz?",
       "answers": [
         {
-          "type": "lato",
-          "content": "Złoto"
+          "type": "jesień",
+          "content": "Złoto",
+          "img": "Pytania/Pyt_6/zloto.jpeg"
         },
         {
           "type": "zima",
-          "content": "Srebro"
+          "content": "Srebro",
+          "img": "Pytania/Pyt_6/srebro.jpg"
         }
       ]
     },
@@ -114,19 +134,23 @@
       "answers": [
         {
           "type": "wiosna",
-          "content": "JASNY: odcienie morelowe, blady i jasny szary"
+          "content": "JASNY: odcienie morelowe, blady i jasny szary",
+          "img": "Pytania/Pyt_7/spring_2.jpg"
         },
         {
           "type": "lato",
-          "content": "DELIKATNY: odcienie delikatnego różu, jasna purpura, angielska lawenda"
+          "content": "DELIKATNY: odcienie delikatnego różu, jasna purpura, angielska lawenda",
+          "img": "Pytania/Pyt_7/summer_2.jpg"
         },
         {
           "type": "jesień",
-          "content": "CIEPŁY: łososiowy, jasne złoto, dynia i ciemna czekolada"
+          "content": "CIEPŁY: łososiowy, jasne złoto, dynia i ciemna czekolada",
+          "img": "Pytania/Pyt_7/autumm_1.jpg"
         },
         {
           "type": "zima",
-          "content": "MOCNY/ZDECYDOWANY: odcienie mocnej czerwieni, brąz lub indygo i onyks"
+          "content": "MOCNY/ZDECYDOWANY: odcienie mocnej czerwieni, brąz lub indygo i onyks",
+          "img": "Pytania/Pyt_7/winter_3.jpg"
         }
       ]
     },
@@ -136,19 +160,23 @@
       "answers": [
         {
           "type": "wiosna",
-          "content": "LIGHT: colors like light coral and peach or light rose and light pink"
+          "content": "LIGHT: odcienie łososiowe, brzoskwiniowe, jasny brąz, a także koral i czerwień „rakową”",
+          "img": "Pytania/Pyt_8/spring.jpg"
         },
         {
           "type": "lato",
-          "content": "DEEP: colors like deep warm red and chocolate or burgundy and plum"
+          "content": "DEEP: intensywnych, wpadających w błękit różach, wiśni, burgundzie, chłodnych odcieniach czerwieni oraz w fuksji",
+          "img": "Pytania/Pyt_8/summer.jpg"
         },
         {
           "type": "jesień",
-          "content": "CLEAR: colors like bright warm red and hot pink or true red and magenta"
+          "content": "CLEAR: ciepłych tonacjach, w związku z czym powinny postawić na odcienie rdzy, cynamonu, miedzi, a także w pomarańczach",
+          "img": "Pytania/Pyt_8/autumm.jpg"
         },
         {
           "type": "zima",
-          "content": "COOL: colors like raspberry and cool pink or deep cool pink and fuchsia"
+          "content": "COOL: Dobrze prezentują się w zasadzie w każdym wyrazistym odcieniu, dzięki czemu mogą sięgać po subtelne, lodowe odcienie róży, a także amarant, purpurę, karmin oraz krwiste odcienie czerwieni i brązy",
+          "img": "Pytania/Pyt_8/winter.jpg"
         }
       ]
     },
@@ -158,19 +186,23 @@
       "answers": [
         {
           "type": "wiosna",
-          "content": "SOFT and WARM: Drew Barrymore and Gisele Bundchen"
+          "content": "SOFT and WARM: Drew Barrymore and Gisele Bundchen",
+          "img": "Pytania/Pyt_9/spring.jpg"
         },
         {
           "type": "lato",
-          "content": "SOFT and COOL: Ellen Pompeo and Jennifer Aniston"
+          "content": "SOFT and COOL: Ellen Pompeo and Jennifer Aniston",
+          "img": "Pytania/Pyt_9/summer.jpg"
         },
         {
           "type": "jesień",
-          "content": "WARM and PEACHY: Amy Adams and Michelle Williams"
+          "content": "WARM and PEACHY: Amy Adams and Michelle Williams",
+          "img": "Pytania/Pyt_9/autumm.jpg"
         },
         {
           "type": "zima",
-          "content": "COOL and BRIGHT: Liv Tyler and Selma Blair"
+          "content": "COOL and BRIGHT: Liv Tyler and Selma Blair",
+          "img": "Pytania/Pyt_9/winter.jpg"
         }
 
       ]

@@ -1,7 +1,8 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import './question.css'
+import styles from './question.css';
 
+console.log(styles);
 
 class Question extends React.Component {
     constructor (props) {
@@ -23,7 +24,7 @@ class Question extends React.Component {
     }
 
     loadData(){
-        fetch('/questions/' + this.props.match.params.questionId)
+        fetch(`https://color-analysys.firebaseio.com/questions/${parseInt(this.props.match.params.questionId, 10) - 1}.json`)
             .then((response) => {
                 return response.json();
             })
@@ -50,13 +51,14 @@ class Question extends React.Component {
         }
 
         return (
-            <div>
+            <div className={ "question" }>
                 <h1> {this.state.question.question}</h1>
                 {
                     this.state.question.answers.map(answer => {
-                        return <div key={answer.type }
+                        return <div className={ "answer" } key={answer.type}
                                     onClick={ () => this.answerSelected(answer) }
                         >
+                              { answer.img && <img src={ require("../images/" + answer.img) } className={ "answerImage" }/> }
                               {answer.content}
                             </div>
                     })

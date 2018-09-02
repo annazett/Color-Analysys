@@ -12,15 +12,18 @@ module.exports = {
             test: /\.css$/,
             use: [
                 { loader: "style-loader" },
-                { loader: "css-loader" }
+                { loader: 'css-loader' }
             ]
         },
         {
-            test: /\.(png|jpg|gif)$/,
+            test: /\.(png|jpg|gif|jpeg)$/,
             use: [
                 {
                     loader: 'file-loader',
-                    options: {}
+                    options: {
+                        name: '[name]_[hash].[ext]',
+                        outputPath: 'images/'
+                    }
                 }
             ]
         }

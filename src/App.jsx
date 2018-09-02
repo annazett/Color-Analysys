@@ -1,6 +1,6 @@
 import React from "react";
 import	{
-    HashRouter,
+    Router,
     Route,
     Switch,
 }	from	'react-router-dom';
@@ -44,14 +44,14 @@ class App extends React.Component {
     };
 
     render() {
-        return  <HashRouter history={history}>
+        return  <Router history={history}>
             <Switch>
                 <Route	exact	path='/'	component={Welcome}	/>
                 <Route  path='/result' render={ () => <Result results={this.state.answers} />} />
                 <Route	path='/question/:questionId' render={ (props) => <Question { ...props } onAnswer={this.onAnswer} /> }	/>
                 <Route	component={NotFound}	/>
             </Switch>
-        </HashRouter>
+        </Router>
     }
 }
 

@@ -3,6 +3,21 @@
   <head>
       <title>CodersLab Project</title>
       <meta charset="UTF-8">
+      <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+
+      <script src="https://www.gstatic.com/firebasejs/5.4.2/firebase.js"></script>
+      <script>
+          // Initialize Firebase
+          var config = {
+              apiKey: "AIzaSyBvJMvjmHWoWAmYT_e-88nWSNRnwlXe5fY",
+              authDomain: "color-analysys.firebaseapp.com",
+              databaseURL: "https://color-analysys.firebaseio.com",
+              projectId: "color-analysys",
+              storageBucket: "",
+              messagingSenderId: "54088527662"
+          };
+          firebase.initializeApp(config);
+      </script>
   </head>
   <body>
     <div id="app"></div>

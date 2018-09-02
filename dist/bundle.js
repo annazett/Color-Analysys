@@ -86,6 +86,51 @@
 /************************************************************************/
 /******/ ({
 
+/***/ "./node_modules/css-loader/index.js!./src/components/question.css":
+/*!***************************************************************!*\
+  !*** ./node_modules/css-loader!./src/components/question.css ***!
+  \***************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/lib/css-base.js */ \"./node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.i, \"* {\\n    padding: 0;\\n    margin: 0;\\n    box-sizing: border-box;\\n}\\n\\nhtml, body {\\n    width: 100%;\\n}\\n\\n.question {\\n    width: 1300px;\\n    height: 700px;\\n    margin-top: 40px;\\n    margin-left: 150px;\\n    text-align: left;\\n    padding-top: 100px;\\n    padding-left: 180px;\\n    cursor: pointer;\\n    background: white;\\n    position: center;\\n}\\n\\n.answer {\\n    width: 200px;\\n    height: auto;\\n    padding: 20px;\\n    margin: 10px;\\n    /*background: #FFB6C1;*/\\n    border-radius: 10px;\\n    float: left;\\n    font-size: 15px;\\n    text-align: center;\\n}\\n\\n.answerImage {\\n    width: 200px;\\n    height: 200px;\\n    border-radius: 10px;\\n    float: left;\\n    margin-right: 10px;\\n}\\n\\nh1 {\\n    font-size: 26px;\\n    text-align: center;\\n}\\n\", \"\"]);\n\n// exports\n\n\n//# sourceURL=webpack:///./src/components/question.css?./node_modules/css-loader");
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js!./src/components/result.css":
+/*!*************************************************************!*\
+  !*** ./node_modules/css-loader!./src/components/result.css ***!
+  \*************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/lib/css-base.js */ \"./node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.i, \"* {\\n    padding: 0;\\n    margin: 0;\\n    box-sizing: border-box;\\n}\\n\\nhtml, body {\\n    width: 100%;\\n}\\n\\n\\n.clearfix::before, .clearfix::after {\\n    content: \\\"\\\";\\n    display: table;\\n    clear: both;\\n}\\n\\n/*WIOSNA*/\\n\\n.spring {\\n    width: 1300px;\\n    margin: 0 auto;\\n    padding-left: 65px;\\n    padding-right: 65px;\\n}\\n\\n.springFoto {\\n    width: auto;\\n    height: 700px;\\n    /*margin-top: 70px;*/\\n    margin-left: -65px;\\n    float: left;\\n}\\n\\n\\n\\n.aboutSpring {\\n    float: left;\\n    margin-top: 40px;\\n    margin-left: 50px;\\n    width: 650px;\\n    text-align: justify;\\n    background: white;\\n}\\n\\n.aboutSpring h1 {\\n    word-spacing: 3px;\\n    font-size: 50px;\\n    color: \\t#808080;\\n    font-weight: 500;\\n    text-align: right;\\n}\\n\\n.aboutSpring h2 {\\n    word-spacing: 3px;\\n    font-size: 25px;\\n    color: \\t#808080;\\n    font-weight: 300;\\n    text-align: end;\\n}\\n\\n.springDescription {\\n    padding-top: 10px;\\n    padding-left: 10px;\\n}\\n\\n.springDescription p {\\n    font-size: 18px;\\n}\\n\\n.springColors {\\n    width: 620px;\\n    margin-top: -2px;\\n    height: auto;\\n}\\n\\n/*SUMMER*/\\n\\n.summer {\\n    width: 1300px;\\n    margin: 0 auto;\\n    padding-left: 65px;\\n    padding-right: 65px;\\n}\\n\\n.summerFoto {\\n    width: auto;\\n    height: 700px;\\n    /*margin-top: 70px;*/\\n    margin-left: -65px;\\n    float: left;\\n}\\n\\n\\n\\n.aboutSummer {\\n    float: left;\\n    margin-top: 40px;\\n    margin-left: 50px;\\n    width: 650px;\\n    text-align: justify;\\n    background: white;\\n}\\n\\n.aboutSummer h1 {\\n    word-spacing: 3px;\\n    font-size: 50px;\\n    color: \\t#808080;\\n    font-weight: 500;\\n    text-align: right;\\n}\\n\\n.aboutSummer h2 {\\n    word-spacing: 3px;\\n    font-size: 25px;\\n    color: \\t#808080;\\n    font-weight: 300;\\n    text-align: end;\\n}\\n\\n.summerDescription {\\n    padding-top: 10px;\\n    padding-left: 10px;\\n}\\n\\n.summerDescription p {\\n    font-size: 18px;\\n}\\n\\n.summerColors {\\n    width: 620px;\\n    margin-top: -2px;\\n    height: auto;\\n}\\n\\n\\n/*AUTUMM*/\\n\\n.autumm {\\n    width: 1300px;\\n    margin: 0 auto;\\n    padding-left: 65px;\\n    padding-right: 65px;\\n}\\n\\n.autummFoto {\\n    width: auto;\\n    height: 700px;\\n    /*margin-top: 70px;*/\\n    margin-left: -65px;\\n    float: left;\\n}\\n\\n\\n\\n.aboutAutumm {\\n    float: left;\\n    margin-top: 40px;\\n    margin-left: 50px;\\n    width: 650px;\\n    text-align: justify;\\n    background: white;\\n}\\n\\n.aboutAutumm h1 {\\n    word-spacing: 3px;\\n    font-size: 50px;\\n    color: \\t#808080;\\n    font-weight: 500;\\n    text-align: right;\\n}\\n\\n.aboutAutumm h2 {\\n    word-spacing: 3px;\\n    font-size: 25px;\\n    color: \\t#808080;\\n    font-weight: 300;\\n    text-align: end;\\n}\\n\\n.autummDescription {\\n    padding-top: 10px;\\n    padding-left: 10px;\\n}\\n\\n.autummDescription p {\\n    font-size: 18px;\\n}\\n\\n.autummColors {\\n    width: 620px;\\n    margin-top: -2px;\\n    height: auto;\\n}\\n\\n\\n/*ZIMA*/\\n\\n.winter {\\n    width: 1300px;\\n    margin: 0 auto;\\n    padding-left: 65px;\\n    padding-right: 65px;\\n}\\n\\n.winterFoto {\\n    width: auto;\\n    height: 700px;\\n    /*margin-top: 70px;*/\\n    margin-left: -65px;\\n    float: left;\\n}\\n\\n\\n\\n.aboutWinter {\\n    float: left;\\n    margin-top: 40px;\\n    margin-left: 50px;\\n    width: 650px;\\n    text-align: justify;\\n    background: white;\\n}\\n\\n.aboutWinter h1 {\\n    word-spacing: 3px;\\n    font-size: 50px;\\n    color: \\t#808080;\\n    font-weight: 500;\\n    text-align: right;\\n}\\n\\n.aboutWinter h2 {\\n    word-spacing: 3px;\\n    font-size: 25px;\\n    color: \\t#808080;\\n    font-weight: 300;\\n    text-align: end;\\n}\\n\\n.winterDescription {\\n    padding-top: 10px;\\n    padding-left: 10px;\\n}\\n\\n.winterDescription p {\\n    font-size: 18px;\\n}\\n\\n.winterColors {\\n    width: 620px;\\n    margin-top: -2px;\\n    height: auto;\\n}\\n\\n\\n.comeBackButton {\\n    background-color: yellow;\\n    color: black;\\n    width: 150px;\\n    height: 30px;\\n    text-align: center;\\n    border-radius: 10px;\\n    border: none;\\n    font-size: 13px;\\n    cursor: pointer;\\n    float: right;\\n    margin-top: 10px;\\n    font-weight: 600;\\n}\\n\\n.yourColors {\\n    color: dimgrey;\\n    font-weight: bold;\\n}\\n\\n\", \"\"]);\n\n// exports\n\n\n//# sourceURL=webpack:///./src/components/result.css?./node_modules/css-loader");
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js!./src/components/welcome.css":
+/*!**************************************************************!*\
+  !*** ./node_modules/css-loader!./src/components/welcome.css ***!
+  \**************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/lib/css-base.js */ \"./node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.i, \"* {\\n    padding: 0;\\n    margin: 0;\\n    box-sizing: border-box;\\n}\\n\\nhtml, body {\\n    width: 100%;\\n    background: darkgray;\\n}\\n\\n\\n\\n.main-width {\\n    width: 1300px;\\n    height: 700px;\\n    background: darkslategrey;\\n    margin-top: 40px;\\n    margin-left: 150px;\\n    /*padding-left: 65px;*/\\n    /*padding-right: 65px;*/\\n}\\n\\n.clearfix::before, .clearfix::after {\\n    content: \\\"\\\";\\n    display: table;\\n    clear: both;\\n}\\n\\n/*MAIN*/\\n\\nimg {\\n    width: auto;\\n    height: 700px;\\n    float: left;\\n}\\n\\n.about {\\n    float: left;\\n    text-align: center;\\n    margin-top: 300px;\\n    margin-left: 180px;\\n    width: 500px;\\n}\\n\\n.about h1 {\\n    font-size: 45px;\\n    font-weight: 500;\\n    text-align: right;\\n    font-family: 'Lato';\\n    color: white;\\n}\\n\\n.about h2 {\\n    text-align: right;\\n    font-family: 'Lato';\\n    color: white;\\n}\\n\\n.about p {\\n    text-align: right;\\n    font-family: 'Lato';\\n    margin-top: 120px;\\n    color: white;\\n}\\n\\n\\n.doTestButton {\\n    background-color: yellow;\\n    width: 170px;\\n    height: 50px;\\n    text-align: center;\\n    line-height: 50px;\\n    border-radius: 10px;\\n    border: none;\\n    font-size: 18px;\\n    cursor: pointer;\\n    float: right;\\n    margin-top: 120px;\\n    font-weight: 800;\\n}\\n\\n/*#main .about h1 {*/\\n    /*font-size: 40px;*/\\n/*}*/\\n\\n\\n\\n\\n\\n/*#main .about button {*/\\n    /*color: #ffffff;*/\\n    /*background-color: #CC0066;*/\\n    /*width: 250px;*/\\n    /*height: 50px;*/\\n    /*text-align: center;*/\\n    /*line-height: 50px;*/\\n    /*border-radius: 10px;*/\\n    /*border: none;*/\\n    /*font-size: 20px;*/\\n    /*cursor: pointer;*/\\n/*}*/\\n\", \"\"]);\n\n// exports\n\n\n//# sourceURL=webpack:///./src/components/welcome.css?./node_modules/css-loader");
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/lib/css-base.js":
+/*!*************************************************!*\
+  !*** ./node_modules/css-loader/lib/css-base.js ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\n/*\n\tMIT License http://www.opensource.org/licenses/mit-license.php\n\tAuthor Tobias Koppers @sokra\n*/\n// css base code, injected by the css-loader\nmodule.exports = function (useSourceMap) {\n\tvar list = [];\n\n\t// return the list of modules as css string\n\tlist.toString = function toString() {\n\t\treturn this.map(function (item) {\n\t\t\tvar content = cssWithMappingToString(item, useSourceMap);\n\t\t\tif (item[2]) {\n\t\t\t\treturn \"@media \" + item[2] + \"{\" + content + \"}\";\n\t\t\t} else {\n\t\t\t\treturn content;\n\t\t\t}\n\t\t}).join(\"\");\n\t};\n\n\t// import a list of modules into the list\n\tlist.i = function (modules, mediaQuery) {\n\t\tif (typeof modules === \"string\") modules = [[null, modules, \"\"]];\n\t\tvar alreadyImportedModules = {};\n\t\tfor (var i = 0; i < this.length; i++) {\n\t\t\tvar id = this[i][0];\n\t\t\tif (typeof id === \"number\") alreadyImportedModules[id] = true;\n\t\t}\n\t\tfor (i = 0; i < modules.length; i++) {\n\t\t\tvar item = modules[i];\n\t\t\t// skip already imported module\n\t\t\t// this implementation is not 100% perfect for weird media query combinations\n\t\t\t//  when a module is imported multiple times with different media queries.\n\t\t\t//  I hope this will never occur (Hey this way we have smaller bundles)\n\t\t\tif (typeof item[0] !== \"number\" || !alreadyImportedModules[item[0]]) {\n\t\t\t\tif (mediaQuery && !item[2]) {\n\t\t\t\t\titem[2] = mediaQuery;\n\t\t\t\t} else if (mediaQuery) {\n\t\t\t\t\titem[2] = \"(\" + item[2] + \") and (\" + mediaQuery + \")\";\n\t\t\t\t}\n\t\t\t\tlist.push(item);\n\t\t\t}\n\t\t}\n\t};\n\treturn list;\n};\n\nfunction cssWithMappingToString(item, useSourceMap) {\n\tvar content = item[1] || '';\n\tvar cssMapping = item[3];\n\tif (!cssMapping) {\n\t\treturn content;\n\t}\n\n\tif (useSourceMap && typeof btoa === 'function') {\n\t\tvar sourceMapping = toComment(cssMapping);\n\t\tvar sourceURLs = cssMapping.sources.map(function (source) {\n\t\t\treturn '/*# sourceURL=' + cssMapping.sourceRoot + source + ' */';\n\t\t});\n\n\t\treturn [content].concat(sourceURLs).concat([sourceMapping]).join('\\n');\n\t}\n\n\treturn [content].join('\\n');\n}\n\n// Adapted from convert-source-map (MIT)\nfunction toComment(sourceMap) {\n\t// eslint-disable-next-line no-undef\n\tvar base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));\n\tvar data = 'sourceMappingURL=data:application/json;charset=utf-8;base64,' + base64;\n\n\treturn '/*# ' + data + ' */';\n}\n\n//# sourceURL=webpack:///./node_modules/css-loader/lib/css-base.js?");
+
+/***/ }),
+
 /***/ "./node_modules/fbjs/lib/ExecutionEnvironment.js":
 /*!*******************************************************!*\
   !*** ./node_modules/fbjs/lib/ExecutionEnvironment.js ***!
@@ -830,6 +875,29 @@ eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n
 
 /***/ }),
 
+/***/ "./node_modules/style-loader/lib/addStyles.js":
+/*!****************************************************!*\
+  !*** ./node_modules/style-loader/lib/addStyles.js ***!
+  \****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("/*\n\tMIT License http://www.opensource.org/licenses/mit-license.php\n\tAuthor Tobias Koppers @sokra\n*/\n\nvar stylesInDom = {};\n\nvar\tmemoize = function (fn) {\n\tvar memo;\n\n\treturn function () {\n\t\tif (typeof memo === \"undefined\") memo = fn.apply(this, arguments);\n\t\treturn memo;\n\t};\n};\n\nvar isOldIE = memoize(function () {\n\t// Test for IE <= 9 as proposed by Browserhacks\n\t// @see http://browserhacks.com/#hack-e71d8692f65334173fee715c222cb805\n\t// Tests for existence of standard globals is to allow style-loader\n\t// to operate correctly into non-standard environments\n\t// @see https://github.com/webpack-contrib/style-loader/issues/177\n\treturn window && document && document.all && !window.atob;\n});\n\nvar getTarget = function (target, parent) {\n  if (parent){\n    return parent.querySelector(target);\n  }\n  return document.querySelector(target);\n};\n\nvar getElement = (function (fn) {\n\tvar memo = {};\n\n\treturn function(target, parent) {\n                // If passing function in options, then use it for resolve \"head\" element.\n                // Useful for Shadow Root style i.e\n                // {\n                //   insertInto: function () { return document.querySelector(\"#foo\").shadowRoot }\n                // }\n                if (typeof target === 'function') {\n                        return target();\n                }\n                if (typeof memo[target] === \"undefined\") {\n\t\t\tvar styleTarget = getTarget.call(this, target, parent);\n\t\t\t// Special case to return head of iframe instead of iframe itself\n\t\t\tif (window.HTMLIFrameElement && styleTarget instanceof window.HTMLIFrameElement) {\n\t\t\t\ttry {\n\t\t\t\t\t// This will throw an exception if access to iframe is blocked\n\t\t\t\t\t// due to cross-origin restrictions\n\t\t\t\t\tstyleTarget = styleTarget.contentDocument.head;\n\t\t\t\t} catch(e) {\n\t\t\t\t\tstyleTarget = null;\n\t\t\t\t}\n\t\t\t}\n\t\t\tmemo[target] = styleTarget;\n\t\t}\n\t\treturn memo[target]\n\t};\n})();\n\nvar singleton = null;\nvar\tsingletonCounter = 0;\nvar\tstylesInsertedAtTop = [];\n\nvar\tfixUrls = __webpack_require__(/*! ./urls */ \"./node_modules/style-loader/lib/urls.js\");\n\nmodule.exports = function(list, options) {\n\tif (typeof DEBUG !== \"undefined\" && DEBUG) {\n\t\tif (typeof document !== \"object\") throw new Error(\"The style-loader cannot be used in a non-browser environment\");\n\t}\n\n\toptions = options || {};\n\n\toptions.attrs = typeof options.attrs === \"object\" ? options.attrs : {};\n\n\t// Force single-tag solution on IE6-9, which has a hard limit on the # of <style>\n\t// tags it will allow on a page\n\tif (!options.singleton && typeof options.singleton !== \"boolean\") options.singleton = isOldIE();\n\n\t// By default, add <style> tags to the <head> element\n        if (!options.insertInto) options.insertInto = \"head\";\n\n\t// By default, add <style> tags to the bottom of the target\n\tif (!options.insertAt) options.insertAt = \"bottom\";\n\n\tvar styles = listToStyles(list, options);\n\n\taddStylesToDom(styles, options);\n\n\treturn function update (newList) {\n\t\tvar mayRemove = [];\n\n\t\tfor (var i = 0; i < styles.length; i++) {\n\t\t\tvar item = styles[i];\n\t\t\tvar domStyle = stylesInDom[item.id];\n\n\t\t\tdomStyle.refs--;\n\t\t\tmayRemove.push(domStyle);\n\t\t}\n\n\t\tif(newList) {\n\t\t\tvar newStyles = listToStyles(newList, options);\n\t\t\taddStylesToDom(newStyles, options);\n\t\t}\n\n\t\tfor (var i = 0; i < mayRemove.length; i++) {\n\t\t\tvar domStyle = mayRemove[i];\n\n\t\t\tif(domStyle.refs === 0) {\n\t\t\t\tfor (var j = 0; j < domStyle.parts.length; j++) domStyle.parts[j]();\n\n\t\t\t\tdelete stylesInDom[domStyle.id];\n\t\t\t}\n\t\t}\n\t};\n};\n\nfunction addStylesToDom (styles, options) {\n\tfor (var i = 0; i < styles.length; i++) {\n\t\tvar item = styles[i];\n\t\tvar domStyle = stylesInDom[item.id];\n\n\t\tif(domStyle) {\n\t\t\tdomStyle.refs++;\n\n\t\t\tfor(var j = 0; j < domStyle.parts.length; j++) {\n\t\t\t\tdomStyle.parts[j](item.parts[j]);\n\t\t\t}\n\n\t\t\tfor(; j < item.parts.length; j++) {\n\t\t\t\tdomStyle.parts.push(addStyle(item.parts[j], options));\n\t\t\t}\n\t\t} else {\n\t\t\tvar parts = [];\n\n\t\t\tfor(var j = 0; j < item.parts.length; j++) {\n\t\t\t\tparts.push(addStyle(item.parts[j], options));\n\t\t\t}\n\n\t\t\tstylesInDom[item.id] = {id: item.id, refs: 1, parts: parts};\n\t\t}\n\t}\n}\n\nfunction listToStyles (list, options) {\n\tvar styles = [];\n\tvar newStyles = {};\n\n\tfor (var i = 0; i < list.length; i++) {\n\t\tvar item = list[i];\n\t\tvar id = options.base ? item[0] + options.base : item[0];\n\t\tvar css = item[1];\n\t\tvar media = item[2];\n\t\tvar sourceMap = item[3];\n\t\tvar part = {css: css, media: media, sourceMap: sourceMap};\n\n\t\tif(!newStyles[id]) styles.push(newStyles[id] = {id: id, parts: [part]});\n\t\telse newStyles[id].parts.push(part);\n\t}\n\n\treturn styles;\n}\n\nfunction insertStyleElement (options, style) {\n\tvar target = getElement(options.insertInto)\n\n\tif (!target) {\n\t\tthrow new Error(\"Couldn't find a style target. This probably means that the value for the 'insertInto' parameter is invalid.\");\n\t}\n\n\tvar lastStyleElementInsertedAtTop = stylesInsertedAtTop[stylesInsertedAtTop.length - 1];\n\n\tif (options.insertAt === \"top\") {\n\t\tif (!lastStyleElementInsertedAtTop) {\n\t\t\ttarget.insertBefore(style, target.firstChild);\n\t\t} else if (lastStyleElementInsertedAtTop.nextSibling) {\n\t\t\ttarget.insertBefore(style, lastStyleElementInsertedAtTop.nextSibling);\n\t\t} else {\n\t\t\ttarget.appendChild(style);\n\t\t}\n\t\tstylesInsertedAtTop.push(style);\n\t} else if (options.insertAt === \"bottom\") {\n\t\ttarget.appendChild(style);\n\t} else if (typeof options.insertAt === \"object\" && options.insertAt.before) {\n\t\tvar nextSibling = getElement(options.insertAt.before, target);\n\t\ttarget.insertBefore(style, nextSibling);\n\t} else {\n\t\tthrow new Error(\"[Style Loader]\\n\\n Invalid value for parameter 'insertAt' ('options.insertAt') found.\\n Must be 'top', 'bottom', or Object.\\n (https://github.com/webpack-contrib/style-loader#insertat)\\n\");\n\t}\n}\n\nfunction removeStyleElement (style) {\n\tif (style.parentNode === null) return false;\n\tstyle.parentNode.removeChild(style);\n\n\tvar idx = stylesInsertedAtTop.indexOf(style);\n\tif(idx >= 0) {\n\t\tstylesInsertedAtTop.splice(idx, 1);\n\t}\n}\n\nfunction createStyleElement (options) {\n\tvar style = document.createElement(\"style\");\n\n\tif(options.attrs.type === undefined) {\n\t\toptions.attrs.type = \"text/css\";\n\t}\n\n\tif(options.attrs.nonce === undefined) {\n\t\tvar nonce = getNonce();\n\t\tif (nonce) {\n\t\t\toptions.attrs.nonce = nonce;\n\t\t}\n\t}\n\n\taddAttrs(style, options.attrs);\n\tinsertStyleElement(options, style);\n\n\treturn style;\n}\n\nfunction createLinkElement (options) {\n\tvar link = document.createElement(\"link\");\n\n\tif(options.attrs.type === undefined) {\n\t\toptions.attrs.type = \"text/css\";\n\t}\n\toptions.attrs.rel = \"stylesheet\";\n\n\taddAttrs(link, options.attrs);\n\tinsertStyleElement(options, link);\n\n\treturn link;\n}\n\nfunction addAttrs (el, attrs) {\n\tObject.keys(attrs).forEach(function (key) {\n\t\tel.setAttribute(key, attrs[key]);\n\t});\n}\n\nfunction getNonce() {\n\tif (false) {}\n\n\treturn __webpack_require__.nc;\n}\n\nfunction addStyle (obj, options) {\n\tvar style, update, remove, result;\n\n\t// If a transform function was defined, run it on the css\n\tif (options.transform && obj.css) {\n\t    result = options.transform(obj.css);\n\n\t    if (result) {\n\t    \t// If transform returns a value, use that instead of the original css.\n\t    \t// This allows running runtime transformations on the css.\n\t    \tobj.css = result;\n\t    } else {\n\t    \t// If the transform function returns a falsy value, don't add this css.\n\t    \t// This allows conditional loading of css\n\t    \treturn function() {\n\t    \t\t// noop\n\t    \t};\n\t    }\n\t}\n\n\tif (options.singleton) {\n\t\tvar styleIndex = singletonCounter++;\n\n\t\tstyle = singleton || (singleton = createStyleElement(options));\n\n\t\tupdate = applyToSingletonTag.bind(null, style, styleIndex, false);\n\t\tremove = applyToSingletonTag.bind(null, style, styleIndex, true);\n\n\t} else if (\n\t\tobj.sourceMap &&\n\t\ttypeof URL === \"function\" &&\n\t\ttypeof URL.createObjectURL === \"function\" &&\n\t\ttypeof URL.revokeObjectURL === \"function\" &&\n\t\ttypeof Blob === \"function\" &&\n\t\ttypeof btoa === \"function\"\n\t) {\n\t\tstyle = createLinkElement(options);\n\t\tupdate = updateLink.bind(null, style, options);\n\t\tremove = function () {\n\t\t\tremoveStyleElement(style);\n\n\t\t\tif(style.href) URL.revokeObjectURL(style.href);\n\t\t};\n\t} else {\n\t\tstyle = createStyleElement(options);\n\t\tupdate = applyToTag.bind(null, style);\n\t\tremove = function () {\n\t\t\tremoveStyleElement(style);\n\t\t};\n\t}\n\n\tupdate(obj);\n\n\treturn function updateStyle (newObj) {\n\t\tif (newObj) {\n\t\t\tif (\n\t\t\t\tnewObj.css === obj.css &&\n\t\t\t\tnewObj.media === obj.media &&\n\t\t\t\tnewObj.sourceMap === obj.sourceMap\n\t\t\t) {\n\t\t\t\treturn;\n\t\t\t}\n\n\t\t\tupdate(obj = newObj);\n\t\t} else {\n\t\t\tremove();\n\t\t}\n\t};\n}\n\nvar replaceText = (function () {\n\tvar textStore = [];\n\n\treturn function (index, replacement) {\n\t\ttextStore[index] = replacement;\n\n\t\treturn textStore.filter(Boolean).join('\\n');\n\t};\n})();\n\nfunction applyToSingletonTag (style, index, remove, obj) {\n\tvar css = remove ? \"\" : obj.css;\n\n\tif (style.styleSheet) {\n\t\tstyle.styleSheet.cssText = replaceText(index, css);\n\t} else {\n\t\tvar cssNode = document.createTextNode(css);\n\t\tvar childNodes = style.childNodes;\n\n\t\tif (childNodes[index]) style.removeChild(childNodes[index]);\n\n\t\tif (childNodes.length) {\n\t\t\tstyle.insertBefore(cssNode, childNodes[index]);\n\t\t} else {\n\t\t\tstyle.appendChild(cssNode);\n\t\t}\n\t}\n}\n\nfunction applyToTag (style, obj) {\n\tvar css = obj.css;\n\tvar media = obj.media;\n\n\tif(media) {\n\t\tstyle.setAttribute(\"media\", media)\n\t}\n\n\tif(style.styleSheet) {\n\t\tstyle.styleSheet.cssText = css;\n\t} else {\n\t\twhile(style.firstChild) {\n\t\t\tstyle.removeChild(style.firstChild);\n\t\t}\n\n\t\tstyle.appendChild(document.createTextNode(css));\n\t}\n}\n\nfunction updateLink (link, options, obj) {\n\tvar css = obj.css;\n\tvar sourceMap = obj.sourceMap;\n\n\t/*\n\t\tIf convertToAbsoluteUrls isn't defined, but sourcemaps are enabled\n\t\tand there is no publicPath defined then lets turn convertToAbsoluteUrls\n\t\ton by default.  Otherwise default to the convertToAbsoluteUrls option\n\t\tdirectly\n\t*/\n\tvar autoFixUrls = options.convertToAbsoluteUrls === undefined && sourceMap;\n\n\tif (options.convertToAbsoluteUrls || autoFixUrls) {\n\t\tcss = fixUrls(css);\n\t}\n\n\tif (sourceMap) {\n\t\t// http://stackoverflow.com/a/26603875\n\t\tcss += \"\\n/*# sourceMappingURL=data:application/json;base64,\" + btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap)))) + \" */\";\n\t}\n\n\tvar blob = new Blob([css], { type: \"text/css\" });\n\n\tvar oldSrc = link.href;\n\n\tlink.href = URL.createObjectURL(blob);\n\n\tif(oldSrc) URL.revokeObjectURL(oldSrc);\n}\n\n\n//# sourceURL=webpack:///./node_modules/style-loader/lib/addStyles.js?");
+
+/***/ }),
+
+/***/ "./node_modules/style-loader/lib/urls.js":
+/*!***********************************************!*\
+  !*** ./node_modules/style-loader/lib/urls.js ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\n/**\n * When source maps are enabled, `style-loader` uses a link element with a data-uri to\n * embed the css on the page. This breaks all relative urls because now they are relative to a\n * bundle instead of the current page.\n *\n * One solution is to only use full urls, but that may be impossible.\n *\n * Instead, this function \"fixes\" the relative urls to be absolute according to the current page location.\n *\n * A rudimentary test suite is located at `test/fixUrls.js` and can be run via the `npm test` command.\n *\n */\n\nmodule.exports = function (css) {\n\t// get current location\n\tvar location = typeof window !== \"undefined\" && window.location;\n\n\tif (!location) {\n\t\tthrow new Error(\"fixUrls requires window.location\");\n\t}\n\n\t// blank or null?\n\tif (!css || typeof css !== \"string\") {\n\t\treturn css;\n\t}\n\n\tvar baseUrl = location.protocol + \"//\" + location.host;\n\tvar currentDir = baseUrl + location.pathname.replace(/\\/[^\\/]*$/, \"/\");\n\n\t// convert each url(...)\n\t/*\n This regular expression is just a way to recursively match brackets within\n a string.\n \t /url\\s*\\(  = Match on the word \"url\" with any whitespace after it and then a parens\n    (  = Start a capturing group\n      (?:  = Start a non-capturing group\n          [^)(]  = Match anything that isn't a parentheses\n          |  = OR\n          \\(  = Match a start parentheses\n              (?:  = Start another non-capturing groups\n                  [^)(]+  = Match anything that isn't a parentheses\n                  |  = OR\n                  \\(  = Match a start parentheses\n                      [^)(]*  = Match anything that isn't a parentheses\n                  \\)  = Match a end parentheses\n              )  = End Group\n              *\\) = Match anything and then a close parens\n          )  = Close non-capturing group\n          *  = Match anything\n       )  = Close capturing group\n  \\)  = Match a close parens\n \t /gi  = Get all matches, not the first.  Be case insensitive.\n  */\n\tvar fixedCss = css.replace(/url\\s*\\(((?:[^)(]|\\((?:[^)(]+|\\([^)(]*\\))*\\))*)\\)/gi, function (fullMatch, origUrl) {\n\t\t// strip quotes (if they exist)\n\t\tvar unquotedOrigUrl = origUrl.trim().replace(/^\"(.*)\"$/, function (o, $1) {\n\t\t\treturn $1;\n\t\t}).replace(/^'(.*)'$/, function (o, $1) {\n\t\t\treturn $1;\n\t\t});\n\n\t\t// already a full url? no change\n\t\tif (/^(#|data:|http:\\/\\/|https:\\/\\/|file:\\/\\/\\/|\\s*$)/i.test(unquotedOrigUrl)) {\n\t\t\treturn fullMatch;\n\t\t}\n\n\t\t// convert the url to a full url\n\t\tvar newUrl;\n\n\t\tif (unquotedOrigUrl.indexOf(\"//\") === 0) {\n\t\t\t//TODO: should we add protocol?\n\t\t\tnewUrl = unquotedOrigUrl;\n\t\t} else if (unquotedOrigUrl.indexOf(\"/\") === 0) {\n\t\t\t// path should be relative to the base url\n\t\t\tnewUrl = baseUrl + unquotedOrigUrl; // already starts with '/'\n\t\t} else {\n\t\t\t// path should be relative to current directory\n\t\t\tnewUrl = currentDir + unquotedOrigUrl.replace(/^\\.\\//, \"\"); // Strip leading './'\n\t\t}\n\n\t\t// send back the fixed url(...)\n\t\treturn \"url(\" + JSON.stringify(newUrl) + \")\";\n\t});\n\n\t// send back the fixed css\n\treturn fixedCss;\n};\n\n//# sourceURL=webpack:///./node_modules/style-loader/lib/urls.js?");
+
+/***/ }),
+
 /***/ "./node_modules/value-equal/index.js":
 /*!*******************************************!*\
   !*** ./node_modules/value-equal/index.js ***!
@@ -862,7 +930,18 @@ eval("/**\n * Copyright (c) 2014-present, Facebook, Inc.\n *\n * This source cod
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});\n\nvar _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactRouterDom = __webpack_require__(/*! react-router-dom */ \"./node_modules/react-router-dom/es/index.js\");\n\nvar _history = __webpack_require__(/*! history */ \"./node_modules/history/es/index.js\");\n\nvar _welcome = __webpack_require__(/*! ./components/welcome */ \"./src/components/welcome.jsx\");\n\nvar _welcome2 = _interopRequireDefault(_welcome);\n\nvar _question = __webpack_require__(/*! ./components/question */ \"./src/components/question.jsx\");\n\nvar _question2 = _interopRequireDefault(_question);\n\nvar _result = __webpack_require__(/*! ./components/result */ \"./src/components/result.jsx\");\n\nvar _result2 = _interopRequireDefault(_result);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr2 = Array(arr.length); i < arr.length; i++) { arr2[i] = arr[i]; } return arr2; } else { return Array.from(arr); } }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\nvar NotFound = function (_React$Component) {\n    _inherits(NotFound, _React$Component);\n\n    function NotFound() {\n        _classCallCheck(this, NotFound);\n\n        return _possibleConstructorReturn(this, (NotFound.__proto__ || Object.getPrototypeOf(NotFound)).apply(this, arguments));\n    }\n\n    _createClass(NotFound, [{\n        key: 'render',\n        value: function render() {\n            return _react2.default.createElement(\n                'h1',\n                null,\n                '404, Nothing is here'\n            );\n        }\n    }]);\n\n    return NotFound;\n}(_react2.default.Component);\n\nvar history = (0, _history.createHashHistory)();\n\nvar App = function (_React$Component2) {\n    _inherits(App, _React$Component2);\n\n    function App() {\n        _classCallCheck(this, App);\n\n        var _this2 = _possibleConstructorReturn(this, (App.__proto__ || Object.getPrototypeOf(App)).call(this));\n\n        _this2.onAnswer = function (_ref) {\n            var id = _ref.id,\n                answerType = _ref.answerType;\n\n            _this2.setState(function (state) {\n                var next = id === 9 ? \"/result\" : \"/question/\" + (id + 1);\n\n                history.push(next);\n\n                return {\n                    answers: [].concat(_toConsumableArray(state.answers), [{ id: id, answerType: answerType }])\n                };\n            });\n        };\n\n        _this2.state = {\n            answers: []\n        };\n\n        return _this2;\n    }\n\n    _createClass(App, [{\n        key: 'shouldComponentUpdate',\n        value: function shouldComponentUpdate() {\n            return false;\n        }\n    }, {\n        key: 'render',\n        value: function render() {\n            var _this3 = this;\n\n            return _react2.default.createElement(\n                _reactRouterDom.HashRouter,\n                { history: history },\n                _react2.default.createElement(\n                    _reactRouterDom.Switch,\n                    null,\n                    _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/', component: _welcome2.default }),\n                    _react2.default.createElement(_reactRouterDom.Route, { path: '/result', render: function render() {\n                            return _react2.default.createElement(_result2.default, { results: _this3.state.answers });\n                        } }),\n                    _react2.default.createElement(_reactRouterDom.Route, { path: '/question/:questionId', render: function render(props) {\n                            return _react2.default.createElement(_question2.default, _extends({}, props, { onAnswer: _this3.onAnswer }));\n                        } }),\n                    _react2.default.createElement(_reactRouterDom.Route, { component: NotFound })\n                )\n            );\n        }\n    }]);\n\n    return App;\n}(_react2.default.Component);\n\nexports.default = App;\n\n//# sourceURL=webpack:///./src/App.jsx?");
+eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});\n\nvar _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactRouterDom = __webpack_require__(/*! react-router-dom */ \"./node_modules/react-router-dom/es/index.js\");\n\nvar _history = __webpack_require__(/*! history */ \"./node_modules/history/es/index.js\");\n\nvar _welcome = __webpack_require__(/*! ./components/welcome */ \"./src/components/welcome.jsx\");\n\nvar _welcome2 = _interopRequireDefault(_welcome);\n\nvar _question = __webpack_require__(/*! ./components/question */ \"./src/components/question.jsx\");\n\nvar _question2 = _interopRequireDefault(_question);\n\nvar _result = __webpack_require__(/*! ./components/result */ \"./src/components/result.jsx\");\n\nvar _result2 = _interopRequireDefault(_result);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr2 = Array(arr.length); i < arr.length; i++) { arr2[i] = arr[i]; } return arr2; } else { return Array.from(arr); } }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\nvar NotFound = function (_React$Component) {\n    _inherits(NotFound, _React$Component);\n\n    function NotFound() {\n        _classCallCheck(this, NotFound);\n\n        return _possibleConstructorReturn(this, (NotFound.__proto__ || Object.getPrototypeOf(NotFound)).apply(this, arguments));\n    }\n\n    _createClass(NotFound, [{\n        key: 'render',\n        value: function render() {\n            return _react2.default.createElement(\n                'h1',\n                null,\n                '404, Nothing is here'\n            );\n        }\n    }]);\n\n    return NotFound;\n}(_react2.default.Component);\n\nvar history = (0, _history.createHashHistory)();\n\nvar App = function (_React$Component2) {\n    _inherits(App, _React$Component2);\n\n    function App() {\n        _classCallCheck(this, App);\n\n        var _this2 = _possibleConstructorReturn(this, (App.__proto__ || Object.getPrototypeOf(App)).call(this));\n\n        _this2.onAnswer = function (_ref) {\n            var id = _ref.id,\n                answerType = _ref.answerType;\n\n            _this2.setState(function (state) {\n                var next = id === 9 ? \"/result\" : \"/question/\" + (id + 1);\n\n                history.push(next);\n\n                return {\n                    answers: [].concat(_toConsumableArray(state.answers), [{ id: id, answerType: answerType }])\n                };\n            });\n        };\n\n        _this2.state = {\n            answers: []\n        };\n\n        return _this2;\n    }\n\n    _createClass(App, [{\n        key: 'shouldComponentUpdate',\n        value: function shouldComponentUpdate() {\n            return false;\n        }\n    }, {\n        key: 'render',\n        value: function render() {\n            var _this3 = this;\n\n            return _react2.default.createElement(\n                _reactRouterDom.Router,\n                { history: history },\n                _react2.default.createElement(\n                    _reactRouterDom.Switch,\n                    null,\n                    _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/', component: _welcome2.default }),\n                    _react2.default.createElement(_reactRouterDom.Route, { path: '/result', render: function render() {\n                            return _react2.default.createElement(_result2.default, { results: _this3.state.answers });\n                        } }),\n                    _react2.default.createElement(_reactRouterDom.Route, { path: '/question/:questionId', render: function render(props) {\n                            return _react2.default.createElement(_question2.default, _extends({}, props, { onAnswer: _this3.onAnswer }));\n                        } }),\n                    _react2.default.createElement(_reactRouterDom.Route, { component: NotFound })\n                )\n            );\n        }\n    }]);\n\n    return App;\n}(_react2.default.Component);\n\nexports.default = App;\n\n//# sourceURL=webpack:///./src/App.jsx?");
+
+/***/ }),
+
+/***/ "./src/components/question.css":
+/*!*************************************!*\
+  !*** ./src/components/question.css ***!
+  \*************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("\nvar content = __webpack_require__(/*! !../../node_modules/css-loader!./question.css */ \"./node_modules/css-loader/index.js!./src/components/question.css\");\n\nif(typeof content === 'string') content = [[module.i, content, '']];\n\nvar transform;\nvar insertInto;\n\n\n\nvar options = {\"hmr\":true}\n\noptions.transform = transform\noptions.insertInto = undefined;\n\nvar update = __webpack_require__(/*! ../../node_modules/style-loader/lib/addStyles.js */ \"./node_modules/style-loader/lib/addStyles.js\")(content, options);\n\nif(content.locals) module.exports = content.locals;\n\nif(false) {}\n\n//# sourceURL=webpack:///./src/components/question.css?");
 
 /***/ }),
 
@@ -874,7 +953,18 @@ eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactRouterDom = __webpack_require__(/*! react-router-dom */ \"./node_modules/react-router-dom/es/index.js\");\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\nvar Question = function (_React$Component) {\n    _inherits(Question, _React$Component);\n\n    function Question(props) {\n        _classCallCheck(this, Question);\n\n        var _this = _possibleConstructorReturn(this, (Question.__proto__ || Object.getPrototypeOf(Question)).call(this, props));\n\n        _this.answerSelected = function (answer) {\n            _this.props.onAnswer({\n                id: _this.state.question.id,\n                answerType: answer.type\n            });\n        };\n\n        _this.state = {\n            question: null\n        };\n\n        return _this;\n    }\n\n    _createClass(Question, [{\n        key: 'componentDidMount',\n        value: function componentDidMount() {\n            this.loadData();\n        }\n    }, {\n        key: 'componentDidUpdate',\n        value: function componentDidUpdate(prevProps) {\n            if (this.props.match.params.questionId !== prevProps.match.params.questionId) {\n                this.loadData();\n            }\n        }\n    }, {\n        key: 'loadData',\n        value: function loadData() {\n            var _this2 = this;\n\n            fetch('/questions/' + this.props.match.params.questionId).then(function (response) {\n                return response.json();\n            }).then(function (myJson) {\n                _this2.setState({ question: myJson });\n            });\n        }\n    }, {\n        key: 'render',\n        value: function render() {\n            var _this3 = this;\n\n            if (!this.state.question) {\n                return _react2.default.createElement(\n                    'div',\n                    null,\n                    'Prosz\\u0119\\xA0czeka\\u0107'\n                );\n            }\n\n            if (!this.state.question.id) {\n                return _react2.default.createElement(\n                    'div',\n                    null,\n                    'Nie znaleznino pytania'\n                );\n            }\n\n            return _react2.default.createElement(\n                'div',\n                null,\n                _react2.default.createElement(\n                    'h1',\n                    null,\n                    ' ',\n                    this.state.question.question\n                ),\n                this.state.question.answers.map(function (answer) {\n                    return _react2.default.createElement(\n                        'div',\n                        { key: answer.type,\n                            onClick: function onClick() {\n                                return _this3.answerSelected(answer);\n                            }\n                        },\n                        answer.content\n                    );\n                })\n            );\n        }\n    }]);\n\n    return Question;\n}(_react2.default.Component);\n\nexports.default = Question;\n\n//# sourceURL=webpack:///./src/components/question.jsx?");
+eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactRouterDom = __webpack_require__(/*! react-router-dom */ \"./node_modules/react-router-dom/es/index.js\");\n\nvar _question = __webpack_require__(/*! ./question.css */ \"./src/components/question.css\");\n\nvar _question2 = _interopRequireDefault(_question);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\nconsole.log(_question2.default);\n\nvar Question = function (_React$Component) {\n    _inherits(Question, _React$Component);\n\n    function Question(props) {\n        _classCallCheck(this, Question);\n\n        var _this = _possibleConstructorReturn(this, (Question.__proto__ || Object.getPrototypeOf(Question)).call(this, props));\n\n        _this.answerSelected = function (answer) {\n            _this.props.onAnswer({\n                id: _this.state.question.id,\n                answerType: answer.type\n            });\n        };\n\n        _this.state = {\n            question: null\n        };\n\n        return _this;\n    }\n\n    _createClass(Question, [{\n        key: 'componentDidMount',\n        value: function componentDidMount() {\n            this.loadData();\n        }\n    }, {\n        key: 'componentDidUpdate',\n        value: function componentDidUpdate(prevProps) {\n            if (this.props.match.params.questionId !== prevProps.match.params.questionId) {\n                this.loadData();\n            }\n        }\n    }, {\n        key: 'loadData',\n        value: function loadData() {\n            var _this2 = this;\n\n            fetch('https://color-analysys.firebaseio.com/questions/' + (parseInt(this.props.match.params.questionId, 10) - 1) + '.json').then(function (response) {\n                return response.json();\n            }).then(function (myJson) {\n                _this2.setState({ question: myJson });\n            });\n        }\n    }, {\n        key: 'render',\n        value: function render() {\n            var _this3 = this;\n\n            if (!this.state.question) {\n                return _react2.default.createElement(\n                    'div',\n                    null,\n                    'Prosz\\u0119\\xA0czeka\\u0107'\n                );\n            }\n\n            if (!this.state.question.id) {\n                return _react2.default.createElement(\n                    'div',\n                    null,\n                    'Nie znaleznino pytania'\n                );\n            }\n\n            return _react2.default.createElement(\n                'div',\n                { className: \"question\" },\n                _react2.default.createElement(\n                    'h1',\n                    null,\n                    ' ',\n                    this.state.question.question\n                ),\n                this.state.question.answers.map(function (answer) {\n                    return _react2.default.createElement(\n                        'div',\n                        { className: \"answer\", key: answer.type,\n                            onClick: function onClick() {\n                                return _this3.answerSelected(answer);\n                            }\n                        },\n                        answer.img && _react2.default.createElement('img', { src: __webpack_require__(\"./src/images sync recursive ^\\\\.\\\\/.*$\")(\"./\" + answer.img), className: \"answerImage\" }),\n                        answer.content\n                    );\n                })\n            );\n        }\n    }]);\n\n    return Question;\n}(_react2.default.Component);\n\nexports.default = Question;\n\n//# sourceURL=webpack:///./src/components/question.jsx?");
+
+/***/ }),
+
+/***/ "./src/components/result.css":
+/*!***********************************!*\
+  !*** ./src/components/result.css ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("\nvar content = __webpack_require__(/*! !../../node_modules/css-loader!./result.css */ \"./node_modules/css-loader/index.js!./src/components/result.css\");\n\nif(typeof content === 'string') content = [[module.i, content, '']];\n\nvar transform;\nvar insertInto;\n\n\n\nvar options = {\"hmr\":true}\n\noptions.transform = transform\noptions.insertInto = undefined;\n\nvar update = __webpack_require__(/*! ../../node_modules/style-loader/lib/addStyles.js */ \"./node_modules/style-loader/lib/addStyles.js\")(content, options);\n\nif(content.locals) module.exports = content.locals;\n\nif(false) {}\n\n//# sourceURL=webpack:///./src/components/result.css?");
 
 /***/ }),
 
@@ -886,7 +976,18 @@ eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _wiosna = __webpack_require__(/*! ../images/wiosna.png */ \"./src/images/wiosna.png\");\n\nvar _wiosna2 = _interopRequireDefault(_wiosna);\n\nvar _lato = __webpack_require__(/*! ../images/lato.png */ \"./src/images/lato.png\");\n\nvar _lato2 = _interopRequireDefault(_lato);\n\nvar _jesien = __webpack_require__(/*! ../images/jesien.png */ \"./src/images/jesien.png\");\n\nvar _jesien2 = _interopRequireDefault(_jesien);\n\nvar _zima = __webpack_require__(/*! ../images/zima.png */ \"./src/images/zima.png\");\n\nvar _zima2 = _interopRequireDefault(_zima);\n\nvar _wiosna_colors = __webpack_require__(/*! ../images/wiosna_colors.png */ \"./src/images/wiosna_colors.png\");\n\nvar _wiosna_colors2 = _interopRequireDefault(_wiosna_colors);\n\nvar _lato_colors = __webpack_require__(/*! ../images/lato_colors.png */ \"./src/images/lato_colors.png\");\n\nvar _lato_colors2 = _interopRequireDefault(_lato_colors);\n\nvar _jesien_colors = __webpack_require__(/*! ../images/jesien_colors.png */ \"./src/images/jesien_colors.png\");\n\nvar _jesien_colors2 = _interopRequireDefault(_jesien_colors);\n\nvar _zima_colors = __webpack_require__(/*! ../images/zima_colors.png */ \"./src/images/zima_colors.png\");\n\nvar _zima_colors2 = _interopRequireDefault(_zima_colors);\n\nvar _question = __webpack_require__(/*! ./question */ \"./src/components/question.jsx\");\n\nvar _question2 = _interopRequireDefault(_question);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar getMostFrequentAnswerType = function getMostFrequentAnswerType(results) {\n    console.log(results);\n\n    var types = {};\n    results.forEach(function (result) {\n        types[result.answerType] = types[result.answerType] || 0;\n        types[result.answerType]++;\n    });\n\n    console.log(types); //{\"jesień\":2,\"wiosna\":4,\"lato\":3}\n\n    var sorted = Object.entries(types).sort(function (arr1, arr2) {\n        return arr1[1] - arr2[1];\n    });\n\n    // return sorted;\n    var lastElement = sorted.length - 1;\n    console.log(\"sorted\", sorted);\n\n    return (sorted[lastElement] || [])[0];\n};\n\nvar renderResult = function renderResult(result) {\n\n    console.log(\"result\", result);\n\n    if (result === 'wiosna') {\n        return _react2.default.createElement(\n            \"div\",\n            { className: \"wiosna\" },\n            _react2.default.createElement(\"img\", { src: _wiosna2.default }),\n            _react2.default.createElement(\"img\", { src: _wiosna_colors2.default }),\n            _react2.default.createElement(\n                \"h1\",\n                null,\n                \"WIOSNA\"\n            ),\n            _react2.default.createElement(\n                \"h2\",\n                null,\n                \"clear, light, warm\"\n            ),\n            _react2.default.createElement(\n                \"p\",\n                null,\n                \"Sk\\xF3ra ma delikatny z\\u0142ocisty lub brzoskwiniowy odcie\\u0144, cz\\u0119sto bywa zarumieniona, ale mimo to stosunkowo \\u0142atwo si\\u0119 opala, a piegi s\\u0105 w z\\u0142ocistym odcieniu Oczy maj\\u0105 najcz\\u0119\\u015Bciej kolor zielony lub niebieski oraz cz\\u0119sto \\u017Arenica jest oddzielona od t\\u0119cz\\xF3wki z\\u0142ot\\u0105 lub z\\u0142otobr\\u0105zow\\u0105 obw\\xF3dk\\u0105 W\\u0142osy s\\u0105 jasne (w kolorze s\\u0142omy, miodu lub platyny) lub br\\u0105zowe o ciep\\u0142ym rdzawym lub z\\u0142otym po\\u0142ysku\"\n            ),\n            _react2.default.createElement(\n                \"button\",\n                { className: \"comeBackButton\", onClick: \"window.history.go(-1); return false;\" },\n                \"ZR\\xD3B JESZCZE RAZ\"\n            )\n        );\n    } else if (result === 'lato') {\n        return _react2.default.createElement(\n            \"div\",\n            { className: \"lato\" },\n            _react2.default.createElement(\"img\", { src: _lato2.default }),\n            _react2.default.createElement(\"img\", { src: _lato_colors2.default }),\n            _react2.default.createElement(\n                \"h1\",\n                null,\n                \"LATO\"\n            ),\n            _react2.default.createElement(\n                \"p\",\n                null,\n                \"Sk\\xF3ra jest albo blada i porcelanowa z wyra\\u017Anie przeb\\u0142yskuj\\u0105cymi naczynkami o zimnym odcieniu, albo oliwkowa o jasnym, ch\\u0142odnym odcieniu Piegi s\\u0105 w kolorze szarym lub szarobrunatnym Oczy wydaj\\u0105 si\\u0119 mie\\u0107 popielat\\u0105 opraw\\u0119 i s\\u0105 niebieskie, zielone lub szare W\\u0142osy s\\u0105 najcz\\u0119\\u015Bciej w popielatym kolorze lub br\\u0105zowym z wyra\\u017Anym popielatym po\\u0142yskiem\"\n            ),\n            _react2.default.createElement(\n                \"button\",\n                { className: \"comeBackButton\", onClick: \"window.history.go(-1); return false;\" },\n                \"ZR\\xD3B JESZCZE RAZ\"\n            )\n        );\n    } else if (result === \"jesien\") {\n        return _react2.default.createElement(\n            \"div\",\n            { className: \"jesien\" },\n            _react2.default.createElement(\"img\", { src: _jesien2.default }),\n            _react2.default.createElement(\"img\", { src: _jesien_colors2.default }),\n            _react2.default.createElement(\n                \"h1\",\n                null,\n                \"JESIE\\u0143\"\n            ),\n            _react2.default.createElement(\n                \"p\",\n                null,\n                \"Sk\\xF3ra jest jasna o ciep\\u0142ej barwie (w kolorze ko\\u015Bci s\\u0142oniowej, w z\\u0142ocisto-be\\u017Cowym lub brzoskwiniowym odcieniu) oraz ma sk\\u0142onno\\u015B\\u0107 do powstawania pieg\\xF3w w rudym kolorze Opalanie cz\\u0119sto ko\\u0144czy si\\u0119 zaczerwienieniem sk\\xF3ry Oczy maj\\u0105 ciep\\u0142e barwy (topaz, br\\u0105z, z\\u0142oty br\\u0105z, ziele\\u0144) lub z\\u0142otawe plamki W\\u0142osy maj\\u0105 ciep\\u0142\\u0105 barw\\u0119 z wyra\\u017Anym z\\u0142otym pob\\u0142yskiem: od blondu, przez kasztanowy i marchewkowy a\\u017C po ciep\\u0142y br\\u0105z\"\n            ),\n            _react2.default.createElement(\n                \"button\",\n                { className: \"comeBackButton\", onClick: \"window.history.go(-1); return false;\" },\n                \"ZR\\xD3B JESZCZE RAZ\"\n            )\n        );\n    } else {\n        return _react2.default.createElement(\n            \"div\",\n            { className: \"zima\" },\n            _react2.default.createElement(\"img\", { src: _zima2.default }),\n            _react2.default.createElement(\"img\", { src: _zima_colors2.default }),\n            _react2.default.createElement(\n                \"h1\",\n                null,\n                \"ZIMA\"\n            ),\n            _react2.default.createElement(\n                \"p\",\n                null,\n                \"Sk\\xF3ra jest bardzo jasna, porcelanowa i sprawia wra\\u017Cenie przezroczystej (w wersji p\\xF3\\u0142nocnej) lub ma zdecydowany ch\\u0142odny odcie\\u0144 oliwki (w wersji po\\u0142udniowej); rzadko pojawia si\\u0119 na niej rumieniec Posiadaczka tej urody mo\\u017Ce mie\\u0107 problemy z opalaniem si\\u0119 Oczy maj\\u0105 ciemn\\u0105 opraw\\u0119 i b\\u0142yszcz\\u0105 intensywnym blaskiem; najcz\\u0119\\u015Bciej s\\u0105 w zdecydowanych kolorach: zielonym, b\\u0142\\u0119kitnym, orzechowym lub ciemnobr\\u0105zowym W\\u0142osy s\\u0105 ciemne, ze zdecydowanym granatowym lub popielatym po\\u0142yskiem\"\n            ),\n            _react2.default.createElement(\n                \"button\",\n                { className: \"comeBackButton\" },\n                \"ZR\\xD3B JESZCZE RAZ\"\n            )\n        );\n    };\n};\n\nvar Result = function Result(props) {\n    return _react2.default.createElement(\n        \"section\",\n        { id: \"result\" },\n        renderResult(getMostFrequentAnswerType(props.results))\n    );\n};\n\nexports.default = Result;\n\n//# sourceURL=webpack:///./src/components/result.jsx?");
+eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _wiosna = __webpack_require__(/*! ../images/wiosna.png */ \"./src/images/wiosna.png\");\n\nvar _wiosna2 = _interopRequireDefault(_wiosna);\n\nvar _lato = __webpack_require__(/*! ../images/lato.png */ \"./src/images/lato.png\");\n\nvar _lato2 = _interopRequireDefault(_lato);\n\nvar _jesien = __webpack_require__(/*! ../images/jesien.png */ \"./src/images/jesien.png\");\n\nvar _jesien2 = _interopRequireDefault(_jesien);\n\nvar _zima = __webpack_require__(/*! ../images/zima.png */ \"./src/images/zima.png\");\n\nvar _zima2 = _interopRequireDefault(_zima);\n\nvar _wiosna_colors = __webpack_require__(/*! ../images/wiosna_colors.png */ \"./src/images/wiosna_colors.png\");\n\nvar _wiosna_colors2 = _interopRequireDefault(_wiosna_colors);\n\nvar _lato_colors = __webpack_require__(/*! ../images/lato_colors.png */ \"./src/images/lato_colors.png\");\n\nvar _lato_colors2 = _interopRequireDefault(_lato_colors);\n\nvar _jesien_colors = __webpack_require__(/*! ../images/jesien_colors.png */ \"./src/images/jesien_colors.png\");\n\nvar _jesien_colors2 = _interopRequireDefault(_jesien_colors);\n\nvar _zima_colors = __webpack_require__(/*! ../images/zima_colors1.png */ \"./src/images/zima_colors1.png\");\n\nvar _zima_colors2 = _interopRequireDefault(_zima_colors);\n\nvar _question = __webpack_require__(/*! ./question */ \"./src/components/question.jsx\");\n\nvar _question2 = _interopRequireDefault(_question);\n\n__webpack_require__(/*! ./result.css */ \"./src/components/result.css\");\n\nvar _reactRouterDom = __webpack_require__(/*! react-router-dom */ \"./node_modules/react-router-dom/es/index.js\");\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar getMostFrequentAnswerType = function getMostFrequentAnswerType(results) {\n    console.log(results);\n\n    var types = {};\n    results.forEach(function (result) {\n        types[result.answerType] = types[result.answerType] || 0;\n        types[result.answerType]++;\n    });\n\n    console.log(types); //{\"jesień\":2,\"wiosna\":4,\"lato\":3}\n\n    var sorted = Object.entries(types).sort(function (arr1, arr2) {\n        return arr1[1] - arr2[1];\n    });\n\n    // return sorted;\n    var lastElement = sorted.length - 1;\n    console.log(\"sorted\", sorted);\n\n    return (sorted[lastElement] || [])[0];\n};\n\nvar renderResult = function renderResult(result) {\n\n    console.log(\"result\", result);\n\n    if (result === 'wiosna') {\n        return _react2.default.createElement(\n            \"section\",\n            { id: \"main\" },\n            _react2.default.createElement(\n                \"div\",\n                { className: \"main-width clearfix\" },\n                _react2.default.createElement(\n                    \"div\",\n                    { className: \"spring\" },\n                    _react2.default.createElement(\"img\", { className: \"springFoto\", src: _wiosna2.default })\n                ),\n                _react2.default.createElement(\n                    \"div\",\n                    { className: \"aboutSpring\" },\n                    _react2.default.createElement(\n                        \"h1\",\n                        null,\n                        _react2.default.createElement(\n                            \"b\",\n                            null,\n                            \"WIOSNA\"\n                        )\n                    ),\n                    _react2.default.createElement(\n                        \"h2\",\n                        null,\n                        \"jasna delikatna ciep\\u0142a\"\n                    ),\n                    _react2.default.createElement(\"br\", null),\n                    _react2.default.createElement(\n                        \"div\",\n                        { className: \"springDescription\" },\n                        _react2.default.createElement(\n                            \"h3\",\n                            { className: \"yourColors\" },\n                            \"CO POWINNA NOSI\\u0106 PANI WIOSNA?\"\n                        ),\n                        _react2.default.createElement(\"br\", null),\n                        _react2.default.createElement(\n                            \"p\",\n                            null,\n                            \"Pani Wiosna najkorzystniej b\\u0119dzie wygl\\u0105da\\u0142a w kolorach wyst\\u0119puj\\u0105cych w naturalnym krajobrazie o tej porze roku. Obserwuj w jakich barwach przyroda budzi si\\u0119 po zimie. Jaki kolor maj\\u0105 pierwsze p\\u0105czki na drzewach, m\\u0142oda trawa, w jakich odcieniach kwitn\\u0105 drzewa owocowe. Czerp kolorystyk\\u0119 swoich ubra\\u0144 z otaczaj\\u0105cej Ci\\u0119 przyrody. Twoj\\u0105 urod\\u0119 najlepiej uwydatni\\u0105 \\u015Bwie\\u017Ce, czyste i soczyste kolory w ciep\\u0142ych odcieniach. Uwielbiasz \\u017C\\xF3\\u0142ty? Pomy\\u015Bl o \\u017C\\xF3\\u0142tych tulipanach i \\u017Conkilach. Nie zapomnij o zieleniach, jeste\\u015B stworzona, by je nosi\\u0107. Dobrze b\\u0119dziesz wygl\\u0105da\\u0107 w zieleni lipy, trawy, niedojrza\\u0142ych jab\\u0142ek, jak r\\xF3wnie\\u017C w \\u017C\\xF3\\u0142tozielonych kolorach. Nie zapomnij te\\u017C o br\\u0105zach, be\\u017Cach, turkusach oraz morelowych i \\u0142ososiowych odcieniach. Doskonale podkre\\u015Bl\\u0105 twoje naturalne pi\\u0119kno.\"\n                        ),\n                        _react2.default.createElement(\"br\", null),\n                        _react2.default.createElement(\n                            \"p\",\n                            { className: \"yourColors\" },\n                            \"TWOJE KOLORY\"\n                        ),\n                        _react2.default.createElement(\"br\", null),\n                        _react2.default.createElement(\"img\", { className: \"springColors\", src: _wiosna_colors2.default }),\n                        _react2.default.createElement(\n                            _reactRouterDom.NavLink,\n                            { to: \"/\" },\n                            _react2.default.createElement(\n                                \"button\",\n                                { className: \"comeBackButton\" },\n                                \"JESZCZE RAZ\"\n                            )\n                        )\n                    )\n                )\n            )\n        );\n    } else if (result === 'lato') {\n        return _react2.default.createElement(\n            \"section\",\n            { id: \"main\" },\n            _react2.default.createElement(\n                \"div\",\n                { className: \"main-width clearfix\" },\n                _react2.default.createElement(\n                    \"div\",\n                    { className: \"summer\" },\n                    _react2.default.createElement(\"img\", { className: \"summerFoto\", src: _lato2.default })\n                ),\n                _react2.default.createElement(\n                    \"div\",\n                    { className: \"aboutSummer\" },\n                    _react2.default.createElement(\n                        \"h1\",\n                        null,\n                        _react2.default.createElement(\n                            \"b\",\n                            null,\n                            \"LATO\"\n                        )\n                    ),\n                    _react2.default.createElement(\n                        \"h2\",\n                        null,\n                        \"jasne delikatne stonowane\"\n                    ),\n                    _react2.default.createElement(\"br\", null),\n                    _react2.default.createElement(\n                        \"div\",\n                        { className: \"summerDescription\" },\n                        _react2.default.createElement(\n                            \"h3\",\n                            { className: \"yourColors\" },\n                            \"CO POWINNA NOSI\\u0106 PANI LATO?\"\n                        ),\n                        _react2.default.createElement(\"br\", null),\n                        _react2.default.createElement(\n                            \"p\",\n                            null,\n                            \"Pani Lato jest delikatnym i ch\\u0142odnym typem urody, co sprawia, \\u017Ce jej sk\\xF3ra wydaje si\\u0119 niezwykle szlachetna i krucha. Kolory ubra\\u0144, kt\\xF3re najkorzystniej b\\u0119d\\u0105 podkre\\u015Bla\\u0142y urod\\u0119 Pani Lata to kolory wyst\\u0119puj\\u0105ce w naturze o tej porze roku. Zwr\\xF3\\u0107 uwag\\u0119 jak zmienia si\\u0119 trawa z wiosennej soczystej zieleni na przyt\\u0142umion\\u0105, spalon\\u0105 s\\u0142o\\u0144cem. Latem \\u0142\\u0105ka le\\u015Bnych kwiat\\xF3w jest r\\xF3\\u017Cnokolorowa, ale wszystkie barwy s\\u0105 rozbielone, pastelowe, wyp\\u0142owia\\u0142e od ostrego s\\u0142o\\u0144ca, jakby przypudrowane. Uwielbiasz \\u017C\\xF3\\u0142ty? Wybierz bluzk\\u0119 w kolorze cytrynowym. Nie zapomnij o niebieskim, niemal\\u017Ce we  wszystkich jego odcieniach b\\u0119dziesz wygl\\u0105da\\u0107 dobrze. Podobnie w rozbielonych odcieniach fiolet\\xF3w. A mo\\u017Ce kochasz zielenie? Wybierz odcienie o niebieskim zabarwieniu \\u2013 morski, ziele\\u0144 butelkow\\u0105 i szar\\u0105 ziele\\u0144.\"\n                        ),\n                        _react2.default.createElement(\"br\", null),\n                        _react2.default.createElement(\n                            \"h3\",\n                            { className: \"yourColors\" },\n                            \"TWOJE KOLORY\"\n                        ),\n                        _react2.default.createElement(\"br\", null),\n                        _react2.default.createElement(\"img\", { className: \"summerColors\", src: _lato_colors2.default }),\n                        _react2.default.createElement(\n                            _reactRouterDom.NavLink,\n                            { to: \"/\" },\n                            _react2.default.createElement(\n                                \"button\",\n                                { className: \"comeBackButton\" },\n                                \"JESZCZE RAZ\"\n                            )\n                        )\n                    )\n                )\n            )\n        );\n    } else if (result === \"jesień\") {\n        return _react2.default.createElement(\n            \"section\",\n            { id: \"main\" },\n            _react2.default.createElement(\n                \"div\",\n                { className: \"main-width clearfix\" },\n                _react2.default.createElement(\n                    \"div\",\n                    { className: \"autumm\" },\n                    _react2.default.createElement(\"img\", { className: \"autummFoto\", src: _jesien2.default })\n                ),\n                _react2.default.createElement(\n                    \"div\",\n                    { className: \"aboutAutumm\" },\n                    _react2.default.createElement(\n                        \"h1\",\n                        null,\n                        _react2.default.createElement(\n                            \"b\",\n                            null,\n                            \"JESIE\\u0143\"\n                        )\n                    ),\n                    _react2.default.createElement(\n                        \"h2\",\n                        null,\n                        \"delikatna ciep\\u0142a g\\u0142\\u0119boka\"\n                    ),\n                    _react2.default.createElement(\"br\", null),\n                    _react2.default.createElement(\n                        \"div\",\n                        { className: \"autummDescription\" },\n                        _react2.default.createElement(\n                            \"h3\",\n                            { className: \"yourColors\" },\n                            \"CO POWINNA NOSI\\u0106 PANI JESIE\\u0143?\"\n                        ),\n                        _react2.default.createElement(\"br\", null),\n                        _react2.default.createElement(\n                            \"p\",\n                            null,\n                            \"Jesienne kolory jesieni s\\u0105 ciep\\u0142e i zgaszone, w otoczeniu kt\\xF3rych rozkwita Pani Jesie\\u0144. Zainspiruj si\\u0119 krajobrazem wyst\\u0119puj\\u0105cym w przyrodzie o tej porze roku. Pomy\\u015Bl o Polskiej Z\\u0142otej Jesieni, przebarwionych na \\u017C\\xF3\\u0142to i czerwono li\\u015Bciach w parku, spadaj\\u0105cych kasztanach, zgni\\u0142ej zieleni. Marzy Ci si\\u0119 zielony sweter? Wybierz w kolorze khaki lub oliwkowym. Chcia\\u0142aby\\u015B za\\u0142o\\u017Cy\\u0107 co\\u015B czerwonego? Najlepsza b\\u0119dzie dla Ciebie ceglana czerwie\\u0144. Jeste\\u015B jedynym typem urody kt\\xF3ry przepi\\u0119knie wygl\\u0105da w pomara\\u0144czu. Pami\\u0119taj o nim \\u2013 je\\u015Bli nie mo\\u017Cesz do pracy nosi\\u0107 ubra\\u0144 w tym kolorze, przemy\\u0107 go w dodatkach. Zamiast czerni wybieraj br\\u0105z, zamiast szarego \\u2013 be\\u017C, bia\\u0142e bluzki i topiki zast\\u0105p ecru i odcieniem ko\\u015Bci s\\u0142oniowej. Nie zapomnij te\\u017C o rudo\\u015Bciach, intensywnych \\u017C\\xF3\\u0142tych i ciemnych turkusach, kt\\xF3re podkre\\u015Bl\\u0105 twoj\\u0105 urod\\u0119.\"\n                        ),\n                        _react2.default.createElement(\"br\", null),\n                        _react2.default.createElement(\n                            \"h3\",\n                            { className: \"yourColors\" },\n                            \"TWOJE KOLORY\"\n                        ),\n                        _react2.default.createElement(\"br\", null),\n                        _react2.default.createElement(\"img\", { className: \"autummColors\", src: _jesien_colors2.default }),\n                        _react2.default.createElement(\n                            _reactRouterDom.NavLink,\n                            { to: \"/\" },\n                            _react2.default.createElement(\n                                \"button\",\n                                { className: \"comeBackButton\" },\n                                \"JESZCZE RAZ\"\n                            )\n                        )\n                    )\n                )\n            )\n        );\n    } else {\n        return _react2.default.createElement(\n            \"section\",\n            { id: \"main\" },\n            _react2.default.createElement(\n                \"div\",\n                { className: \"main-width clearfix\" },\n                _react2.default.createElement(\n                    \"div\",\n                    { className: \"winter\" },\n                    _react2.default.createElement(\"img\", { className: \"winterFoto\", src: _zima2.default })\n                ),\n                _react2.default.createElement(\n                    \"div\",\n                    { className: \"aboutWinter\" },\n                    _react2.default.createElement(\n                        \"h1\",\n                        null,\n                        _react2.default.createElement(\n                            \"b\",\n                            null,\n                            \"ZIMA\"\n                        )\n                    ),\n                    _react2.default.createElement(\n                        \"h2\",\n                        null,\n                        \"czysta g\\u0142\\u0119boka zimna\"\n                    ),\n                    _react2.default.createElement(\"br\", null),\n                    _react2.default.createElement(\n                        \"div\",\n                        { className: \"winterDescription\" },\n                        _react2.default.createElement(\n                            \"h3\",\n                            { className: \"yourColors\" },\n                            \"CO POWINNA NOSI\\u0106 PANI ZIMA?\"\n                        ),\n                        _react2.default.createElement(\"br\", null),\n                        _react2.default.createElement(\n                            \"p\",\n                            null,\n                            \"Krajobraz zim\\u0105 jest kontrastowy. Na tle bia\\u0142ego \\u015Bniegu wiecznie zielone choinki wydaj\\u0105 si\\u0119 by\\u0107 bardziej zielone. O zachodzie s\\u0142o\\u0144ca na niebie widoczna jest feeria barw granatowo fioletowych. W takich kolorach te\\u017C najpi\\u0119kniej wygl\\u0105da Pani Zima. Lubisz niebieski? Wybierz lodowy b\\u0142\\u0119kit. Masz ochot\\u0119 na czerwony dodatek \\u2013 pomy\\u015Bl o kolorze czerwonego wina, kt\\xF3re s\\u0105czysz przy kominku w d\\u0142ugie zimowe wieczory. Tw\\xF3j zielony to ziele\\u0144 butelkowa. Dobrze b\\u0119dziesz wygl\\u0105da\\u0107 w intensywnych, ch\\u0142odnych kolorach jak fuksja czy kobalt. Bia\\u0142a bluzka? Wy\\u0142\\u0105cznie w \\u015Bnie\\u017Cnobia\\u0142ym odcieniu, zapomnij o ko\\u015Bci s\\u0142oniowej czy ecru. Jeste\\u015B mi\\u0142o\\u015Bniczk\\u0105 br\\u0105zu? Wybierz odcie\\u0144 gorzkiej czekolady, kt\\xF3ry podkre\\u015Bli Twoj\\u0105 urod\\u0119. I pami\\u0119taj o kontrastach, by Tw\\xF3j wizerunek by\\u0142 r\\xF3wnie kontrastowy jak zimowy krajobraz.\"\n                        ),\n                        _react2.default.createElement(\"br\", null),\n                        _react2.default.createElement(\n                            \"h3\",\n                            { className: \"yourColors\" },\n                            \"TWOJE KOLORY\"\n                        ),\n                        _react2.default.createElement(\"br\", null),\n                        _react2.default.createElement(\"img\", { className: \"winterColors\", src: _zima_colors2.default }),\n                        _react2.default.createElement(\n                            _reactRouterDom.NavLink,\n                            { to: \"/\" },\n                            _react2.default.createElement(\n                                \"button\",\n                                { className: \"comeBackButton\" },\n                                \"JESZCZE RAZ\"\n                            )\n                        )\n                    )\n                )\n            )\n        );\n    };\n};\n\nvar Result = function Result(props) {\n    return _react2.default.createElement(\n        \"section\",\n        { id: \"result\" },\n        renderResult(getMostFrequentAnswerType(props.results))\n    );\n};\n\nexports.default = Result;\n\n//# sourceURL=webpack:///./src/components/result.jsx?");
+
+/***/ }),
+
+/***/ "./src/components/welcome.css":
+/*!************************************!*\
+  !*** ./src/components/welcome.css ***!
+  \************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("\nvar content = __webpack_require__(/*! !../../node_modules/css-loader!./welcome.css */ \"./node_modules/css-loader/index.js!./src/components/welcome.css\");\n\nif(typeof content === 'string') content = [[module.i, content, '']];\n\nvar transform;\nvar insertInto;\n\n\n\nvar options = {\"hmr\":true}\n\noptions.transform = transform\noptions.insertInto = undefined;\n\nvar update = __webpack_require__(/*! ../../node_modules/style-loader/lib/addStyles.js */ \"./node_modules/style-loader/lib/addStyles.js\")(content, options);\n\nif(content.locals) module.exports = content.locals;\n\nif(false) {}\n\n//# sourceURL=webpack:///./src/components/welcome.css?");
 
 /***/ }),
 
@@ -898,7 +999,18 @@ eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});\n\nvar _Colourtheoryhgj = __webpack_require__(/*! ../images/Colourtheoryhgj.005.png */ \"./src/images/Colourtheoryhgj.005.png\");\n\nvar _Colourtheoryhgj2 = _interopRequireDefault(_Colourtheoryhgj);\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar Welcome = function Welcome() {\n    return _react2.default.createElement(\n        \"section\",\n        { id: \"main\" },\n        _react2.default.createElement(\n            \"div\",\n            { className: \"main-width clearfix\" },\n            _react2.default.createElement(\n                \"div\",\n                { className: \"images\" },\n                _react2.default.createElement(\"img\", { src: _Colourtheoryhgj2.default })\n            ),\n            _react2.default.createElement(\n                \"div\",\n                { className: \"about\" },\n                _react2.default.createElement(\n                    \"h1\",\n                    null,\n                    \"ANALIZA KOLORYSTYCZNA\"\n                )\n            )\n        )\n    );\n};\n\nexports.default = Welcome;\n\n//# sourceURL=webpack:///./src/components/welcome.jsx?");
+eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});\n\nvar _fourSeasons = __webpack_require__(/*! ../images/fourSeasons.png */ \"./src/images/fourSeasons.png\");\n\nvar _fourSeasons2 = _interopRequireDefault(_fourSeasons);\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\n__webpack_require__(/*! ./welcome.css */ \"./src/components/welcome.css\");\n\nvar _reactRouterDom = __webpack_require__(/*! react-router-dom */ \"./node_modules/react-router-dom/es/index.js\");\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar Welcome = function Welcome(_ref) {\n    var question = _ref.question;\n    return _react2.default.createElement(\n        \"section\",\n        { id: \"main\" },\n        _react2.default.createElement(\n            \"div\",\n            { className: \"main-width clearfix\" },\n            _react2.default.createElement(\n                \"div\",\n                { className: \"images\" },\n                _react2.default.createElement(\"img\", { src: _fourSeasons2.default })\n            ),\n            _react2.default.createElement(\n                \"div\",\n                { className: \"about\" },\n                _react2.default.createElement(\n                    \"h1\",\n                    null,\n                    \"ANALIZA\"\n                ),\n                _react2.default.createElement(\n                    \"h1\",\n                    null,\n                    _react2.default.createElement(\n                        \"span\",\n                        { style: { color: '#00FFFF' } },\n                        \"K\"\n                    ),\n                    _react2.default.createElement(\n                        \"span\",\n                        { style: { color: '#A52A2A' } },\n                        \"O\"\n                    ),\n                    _react2.default.createElement(\n                        \"span\",\n                        { style: { color: '#6495ED' } },\n                        \"L\"\n                    ),\n                    _react2.default.createElement(\n                        \"span\",\n                        { style: { color: '#556B2F' } },\n                        \"O\"\n                    ),\n                    \"R\",\n                    _react2.default.createElement(\n                        \"span\",\n                        { style: { color: '#FF1493' } },\n                        \"Y\"\n                    ),\n                    _react2.default.createElement(\n                        \"span\",\n                        { style: { color: '#DAA520' } },\n                        \"S\"\n                    ),\n                    _react2.default.createElement(\n                        \"span\",\n                        { style: { color: '#7CFC00' } },\n                        \"T\"\n                    ),\n                    _react2.default.createElement(\n                        \"span\",\n                        { style: { color: '#778899' } },\n                        \"Y\"\n                    ),\n                    _react2.default.createElement(\n                        \"span\",\n                        { style: { color: '#191970' } },\n                        \"C\"\n                    ),\n                    _react2.default.createElement(\n                        \"span\",\n                        { style: { color: '#808000' } },\n                        \"Z\"\n                    ),\n                    _react2.default.createElement(\n                        \"span\",\n                        { style: { color: '#FA8072' } },\n                        \"N\"\n                    ),\n                    _react2.default.createElement(\n                        \"span\",\n                        { style: { color: '#D2B48C' } },\n                        \"A\"\n                    )\n                ),\n                _react2.default.createElement(\"br\", null),\n                _react2.default.createElement(\n                    \"h2\",\n                    null,\n                    \"znajd\\u017A sw\\xF3j typ!\"\n                ),\n                _react2.default.createElement(\"br\", null),\n                _react2.default.createElement(\n                    _reactRouterDom.NavLink,\n                    { to: \"/question/1\" },\n                    _react2.default.createElement(\n                        \"button\",\n                        { className: \"doTestButton\" },\n                        \"ZR\\xD3B TEST\"\n                    )\n                ),\n                _react2.default.createElement(\"br\", null),\n                _react2.default.createElement(\"br\", null),\n                _react2.default.createElement(\"br\", null),\n                _react2.default.createElement(\"br\", null),\n                _react2.default.createElement(\n                    \"p\",\n                    null,\n                    \"... i dowiedz si\\u0119 jakim TYPEM KOLORYSTYCZNYM JESTE\\u015A!\"\n                )\n            )\n        )\n    );\n};\n\nexports.default = Welcome;\n\n//# sourceURL=webpack:///./src/components/welcome.jsx?");
+
+/***/ }),
+
+/***/ "./src/images sync recursive ^\\.\\/.*$":
+/*!**********************************!*\
+  !*** ./src/images sync ^\.\/.*$ ***!
+  \**********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("var map = {\n\t\"./Colourtheoryhgj.005.png\": \"./src/images/Colourtheoryhgj.005.png\",\n\t\"./Pytania/Pyt_1/hair_autumm.jpg\": \"./src/images/Pytania/Pyt_1/hair_autumm.jpg\",\n\t\"./Pytania/Pyt_1/hair_spring.jpg\": \"./src/images/Pytania/Pyt_1/hair_spring.jpg\",\n\t\"./Pytania/Pyt_1/hair_summer.jpg\": \"./src/images/Pytania/Pyt_1/hair_summer.jpg\",\n\t\"./Pytania/Pyt_1/hair_winter.jpg\": \"./src/images/Pytania/Pyt_1/hair_winter.jpg\",\n\t\"./Pytania/Pyt_2/eyes_autumm.jpg\": \"./src/images/Pytania/Pyt_2/eyes_autumm.jpg\",\n\t\"./Pytania/Pyt_2/eyes_spring.jpg\": \"./src/images/Pytania/Pyt_2/eyes_spring.jpg\",\n\t\"./Pytania/Pyt_2/eyes_summer.jpg\": \"./src/images/Pytania/Pyt_2/eyes_summer.jpg\",\n\t\"./Pytania/Pyt_2/eyes_winter.jpg\": \"./src/images/Pytania/Pyt_2/eyes_winter.jpg\",\n\t\"./Pytania/Pyt_3/skin_autumm.jpg\": \"./src/images/Pytania/Pyt_3/skin_autumm.jpg\",\n\t\"./Pytania/Pyt_3/skin_spring.jpg\": \"./src/images/Pytania/Pyt_3/skin_spring.jpg\",\n\t\"./Pytania/Pyt_3/skin_summer.jpg\": \"./src/images/Pytania/Pyt_3/skin_summer.jpg\",\n\t\"./Pytania/Pyt_3/skin_winter.jpg\": \"./src/images/Pytania/Pyt_3/skin_winter.jpg\",\n\t\"./Pytania/Pyt_4/brak_piegow.jpeg\": \"./src/images/Pytania/Pyt_4/brak_piegow.jpeg\",\n\t\"./Pytania/Pyt_4/piegi.jpg\": \"./src/images/Pytania/Pyt_4/piegi.jpg\",\n\t\"./Pytania/Pyt_5/blue.jpg\": \"./src/images/Pytania/Pyt_5/blue.jpg\",\n\t\"./Pytania/Pyt_5/green.jpg\": \"./src/images/Pytania/Pyt_5/green.jpg\",\n\t\"./Pytania/Pyt_6/srebro.jpg\": \"./src/images/Pytania/Pyt_6/srebro.jpg\",\n\t\"./Pytania/Pyt_6/zloto.jpeg\": \"./src/images/Pytania/Pyt_6/zloto.jpeg\",\n\t\"./Pytania/Pyt_7/autumm_1.jpg\": \"./src/images/Pytania/Pyt_7/autumm_1.jpg\",\n\t\"./Pytania/Pyt_7/autumm_2.jpg\": \"./src/images/Pytania/Pyt_7/autumm_2.jpg\",\n\t\"./Pytania/Pyt_7/autumm_3.jpg\": \"./src/images/Pytania/Pyt_7/autumm_3.jpg\",\n\t\"./Pytania/Pyt_7/spring_1.jpg\": \"./src/images/Pytania/Pyt_7/spring_1.jpg\",\n\t\"./Pytania/Pyt_7/spring_2.jpg\": \"./src/images/Pytania/Pyt_7/spring_2.jpg\",\n\t\"./Pytania/Pyt_7/spring_3.jpg\": \"./src/images/Pytania/Pyt_7/spring_3.jpg\",\n\t\"./Pytania/Pyt_7/summer_1.jpg\": \"./src/images/Pytania/Pyt_7/summer_1.jpg\",\n\t\"./Pytania/Pyt_7/summer_2.jpg\": \"./src/images/Pytania/Pyt_7/summer_2.jpg\",\n\t\"./Pytania/Pyt_7/summer_3.jpg\": \"./src/images/Pytania/Pyt_7/summer_3.jpg\",\n\t\"./Pytania/Pyt_7/winter_1.jpg\": \"./src/images/Pytania/Pyt_7/winter_1.jpg\",\n\t\"./Pytania/Pyt_7/winter_2.jpg\": \"./src/images/Pytania/Pyt_7/winter_2.jpg\",\n\t\"./Pytania/Pyt_7/winter_3.jpg\": \"./src/images/Pytania/Pyt_7/winter_3.jpg\",\n\t\"./Pytania/Pyt_8/autumm.jpg\": \"./src/images/Pytania/Pyt_8/autumm.jpg\",\n\t\"./Pytania/Pyt_8/spring.jpg\": \"./src/images/Pytania/Pyt_8/spring.jpg\",\n\t\"./Pytania/Pyt_8/summer.jpg\": \"./src/images/Pytania/Pyt_8/summer.jpg\",\n\t\"./Pytania/Pyt_8/winter.jpg\": \"./src/images/Pytania/Pyt_8/winter.jpg\",\n\t\"./Pytania/Pyt_9/autumm.jpg\": \"./src/images/Pytania/Pyt_9/autumm.jpg\",\n\t\"./Pytania/Pyt_9/spring.jpg\": \"./src/images/Pytania/Pyt_9/spring.jpg\",\n\t\"./Pytania/Pyt_9/summer.jpg\": \"./src/images/Pytania/Pyt_9/summer.jpg\",\n\t\"./Pytania/Pyt_9/winter.jpg\": \"./src/images/Pytania/Pyt_9/winter.jpg\",\n\t\"./afro.jpg\": \"./src/images/afro.jpg\",\n\t\"./fourSeasons.png\": \"./src/images/fourSeasons.png\",\n\t\"./insta.jpeg\": \"./src/images/insta.jpeg\",\n\t\"./jesien.png\": \"./src/images/jesien.png\",\n\t\"./jesien_colors.png\": \"./src/images/jesien_colors.png\",\n\t\"./lato.png\": \"./src/images/lato.png\",\n\t\"./lato_colors.png\": \"./src/images/lato_colors.png\",\n\t\"./wiosna.png\": \"./src/images/wiosna.png\",\n\t\"./wiosna_colors.png\": \"./src/images/wiosna_colors.png\",\n\t\"./zima.png\": \"./src/images/zima.png\",\n\t\"./zima_colors1.png\": \"./src/images/zima_colors1.png\"\n};\n\n\nfunction webpackContext(req) {\n\tvar id = webpackContextResolve(req);\n\treturn __webpack_require__(id);\n}\nfunction webpackContextResolve(req) {\n\tvar id = map[req];\n\tif(!(id + 1)) { // check for number or string\n\t\tvar e = new Error(\"Cannot find module '\" + req + \"'\");\n\t\te.code = 'MODULE_NOT_FOUND';\n\t\tthrow e;\n\t}\n\treturn id;\n}\nwebpackContext.keys = function webpackContextKeys() {\n\treturn Object.keys(map);\n};\nwebpackContext.resolve = webpackContextResolve;\nmodule.exports = webpackContext;\nwebpackContext.id = \"./src/images sync recursive ^\\\\.\\\\/.*$\";\n\n//# sourceURL=webpack:///./src/images_sync_^\\.\\/.*$?");
 
 /***/ }),
 
@@ -909,7 +1021,458 @@ eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("module.exports = __webpack_require__.p + \"1eefe591d584a83f1e7ae5f193c07282.png\";\n\n//# sourceURL=webpack:///./src/images/Colourtheoryhgj.005.png?");
+eval("module.exports = __webpack_require__.p + \"images/Colourtheoryhgj.005_1eefe591d584a83f1e7ae5f193c07282.png\";\n\n//# sourceURL=webpack:///./src/images/Colourtheoryhgj.005.png?");
+
+/***/ }),
+
+/***/ "./src/images/Pytania/Pyt_1/hair_autumm.jpg":
+/*!**************************************************!*\
+  !*** ./src/images/Pytania/Pyt_1/hair_autumm.jpg ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"images/hair_autumm_9d92c14c7a79927a4417c2a1c3a96521.jpg\";\n\n//# sourceURL=webpack:///./src/images/Pytania/Pyt_1/hair_autumm.jpg?");
+
+/***/ }),
+
+/***/ "./src/images/Pytania/Pyt_1/hair_spring.jpg":
+/*!**************************************************!*\
+  !*** ./src/images/Pytania/Pyt_1/hair_spring.jpg ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"images/hair_spring_68303aedaa5280cc599e5bf5dcdab436.jpg\";\n\n//# sourceURL=webpack:///./src/images/Pytania/Pyt_1/hair_spring.jpg?");
+
+/***/ }),
+
+/***/ "./src/images/Pytania/Pyt_1/hair_summer.jpg":
+/*!**************************************************!*\
+  !*** ./src/images/Pytania/Pyt_1/hair_summer.jpg ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"images/hair_summer_4dccd233d5594285235107170903952e.jpg\";\n\n//# sourceURL=webpack:///./src/images/Pytania/Pyt_1/hair_summer.jpg?");
+
+/***/ }),
+
+/***/ "./src/images/Pytania/Pyt_1/hair_winter.jpg":
+/*!**************************************************!*\
+  !*** ./src/images/Pytania/Pyt_1/hair_winter.jpg ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"images/hair_winter_ebf0fc9342c205a6960632bd4519df10.jpg\";\n\n//# sourceURL=webpack:///./src/images/Pytania/Pyt_1/hair_winter.jpg?");
+
+/***/ }),
+
+/***/ "./src/images/Pytania/Pyt_2/eyes_autumm.jpg":
+/*!**************************************************!*\
+  !*** ./src/images/Pytania/Pyt_2/eyes_autumm.jpg ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"images/eyes_autumm_3bc7abffaf3145938a0cfa42195fc9e6.jpg\";\n\n//# sourceURL=webpack:///./src/images/Pytania/Pyt_2/eyes_autumm.jpg?");
+
+/***/ }),
+
+/***/ "./src/images/Pytania/Pyt_2/eyes_spring.jpg":
+/*!**************************************************!*\
+  !*** ./src/images/Pytania/Pyt_2/eyes_spring.jpg ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"images/eyes_spring_66dc4da9da8e4a56922990ce7ae07167.jpg\";\n\n//# sourceURL=webpack:///./src/images/Pytania/Pyt_2/eyes_spring.jpg?");
+
+/***/ }),
+
+/***/ "./src/images/Pytania/Pyt_2/eyes_summer.jpg":
+/*!**************************************************!*\
+  !*** ./src/images/Pytania/Pyt_2/eyes_summer.jpg ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"images/eyes_summer_08aced4375ea8fba0d0cb6e68ad7c7e6.jpg\";\n\n//# sourceURL=webpack:///./src/images/Pytania/Pyt_2/eyes_summer.jpg?");
+
+/***/ }),
+
+/***/ "./src/images/Pytania/Pyt_2/eyes_winter.jpg":
+/*!**************************************************!*\
+  !*** ./src/images/Pytania/Pyt_2/eyes_winter.jpg ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"images/eyes_winter_837d430ff1e5a6c983230f5b249e6ce7.jpg\";\n\n//# sourceURL=webpack:///./src/images/Pytania/Pyt_2/eyes_winter.jpg?");
+
+/***/ }),
+
+/***/ "./src/images/Pytania/Pyt_3/skin_autumm.jpg":
+/*!**************************************************!*\
+  !*** ./src/images/Pytania/Pyt_3/skin_autumm.jpg ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"images/skin_autumm_806b8c4522da6ee39919217d380df81b.jpg\";\n\n//# sourceURL=webpack:///./src/images/Pytania/Pyt_3/skin_autumm.jpg?");
+
+/***/ }),
+
+/***/ "./src/images/Pytania/Pyt_3/skin_spring.jpg":
+/*!**************************************************!*\
+  !*** ./src/images/Pytania/Pyt_3/skin_spring.jpg ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"images/skin_spring_778f9995f2519620cae5ece1cc97a3c6.jpg\";\n\n//# sourceURL=webpack:///./src/images/Pytania/Pyt_3/skin_spring.jpg?");
+
+/***/ }),
+
+/***/ "./src/images/Pytania/Pyt_3/skin_summer.jpg":
+/*!**************************************************!*\
+  !*** ./src/images/Pytania/Pyt_3/skin_summer.jpg ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"images/skin_summer_74fad3c963c33436607cf644d27646fc.jpg\";\n\n//# sourceURL=webpack:///./src/images/Pytania/Pyt_3/skin_summer.jpg?");
+
+/***/ }),
+
+/***/ "./src/images/Pytania/Pyt_3/skin_winter.jpg":
+/*!**************************************************!*\
+  !*** ./src/images/Pytania/Pyt_3/skin_winter.jpg ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"images/skin_winter_c8b400b78d47cfaff245f5e067629050.jpg\";\n\n//# sourceURL=webpack:///./src/images/Pytania/Pyt_3/skin_winter.jpg?");
+
+/***/ }),
+
+/***/ "./src/images/Pytania/Pyt_4/brak_piegow.jpeg":
+/*!***************************************************!*\
+  !*** ./src/images/Pytania/Pyt_4/brak_piegow.jpeg ***!
+  \***************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"images/brak_piegow_d94c87f4cd0d04c937fc331bf7e34115.jpeg\";\n\n//# sourceURL=webpack:///./src/images/Pytania/Pyt_4/brak_piegow.jpeg?");
+
+/***/ }),
+
+/***/ "./src/images/Pytania/Pyt_4/piegi.jpg":
+/*!********************************************!*\
+  !*** ./src/images/Pytania/Pyt_4/piegi.jpg ***!
+  \********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"images/piegi_15b6613b7493ee907ed4b627e06cdc60.jpg\";\n\n//# sourceURL=webpack:///./src/images/Pytania/Pyt_4/piegi.jpg?");
+
+/***/ }),
+
+/***/ "./src/images/Pytania/Pyt_5/blue.jpg":
+/*!*******************************************!*\
+  !*** ./src/images/Pytania/Pyt_5/blue.jpg ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"images/blue_6500094b13bdf5d069b25899a9d59c10.jpg\";\n\n//# sourceURL=webpack:///./src/images/Pytania/Pyt_5/blue.jpg?");
+
+/***/ }),
+
+/***/ "./src/images/Pytania/Pyt_5/green.jpg":
+/*!********************************************!*\
+  !*** ./src/images/Pytania/Pyt_5/green.jpg ***!
+  \********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"images/green_197e290a5cec25cca0230404c7c518ed.jpg\";\n\n//# sourceURL=webpack:///./src/images/Pytania/Pyt_5/green.jpg?");
+
+/***/ }),
+
+/***/ "./src/images/Pytania/Pyt_6/srebro.jpg":
+/*!*********************************************!*\
+  !*** ./src/images/Pytania/Pyt_6/srebro.jpg ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"images/srebro_d2b5705bdbd3a4b26947aba53d12f378.jpg\";\n\n//# sourceURL=webpack:///./src/images/Pytania/Pyt_6/srebro.jpg?");
+
+/***/ }),
+
+/***/ "./src/images/Pytania/Pyt_6/zloto.jpeg":
+/*!*********************************************!*\
+  !*** ./src/images/Pytania/Pyt_6/zloto.jpeg ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"images/zloto_c7526a50c69c9de279fc98f74c4294ce.jpeg\";\n\n//# sourceURL=webpack:///./src/images/Pytania/Pyt_6/zloto.jpeg?");
+
+/***/ }),
+
+/***/ "./src/images/Pytania/Pyt_7/autumm_1.jpg":
+/*!***********************************************!*\
+  !*** ./src/images/Pytania/Pyt_7/autumm_1.jpg ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"images/autumm_1_822887110100bdf80c5899c38ab9c529.jpg\";\n\n//# sourceURL=webpack:///./src/images/Pytania/Pyt_7/autumm_1.jpg?");
+
+/***/ }),
+
+/***/ "./src/images/Pytania/Pyt_7/autumm_2.jpg":
+/*!***********************************************!*\
+  !*** ./src/images/Pytania/Pyt_7/autumm_2.jpg ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"images/autumm_2_2290795a7cfc3a99047da0953ab87ae2.jpg\";\n\n//# sourceURL=webpack:///./src/images/Pytania/Pyt_7/autumm_2.jpg?");
+
+/***/ }),
+
+/***/ "./src/images/Pytania/Pyt_7/autumm_3.jpg":
+/*!***********************************************!*\
+  !*** ./src/images/Pytania/Pyt_7/autumm_3.jpg ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"images/autumm_3_8f30966e7af4de637ac6c7159df16fd8.jpg\";\n\n//# sourceURL=webpack:///./src/images/Pytania/Pyt_7/autumm_3.jpg?");
+
+/***/ }),
+
+/***/ "./src/images/Pytania/Pyt_7/spring_1.jpg":
+/*!***********************************************!*\
+  !*** ./src/images/Pytania/Pyt_7/spring_1.jpg ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"images/spring_1_a332fb53123288c303ea508bc14829e6.jpg\";\n\n//# sourceURL=webpack:///./src/images/Pytania/Pyt_7/spring_1.jpg?");
+
+/***/ }),
+
+/***/ "./src/images/Pytania/Pyt_7/spring_2.jpg":
+/*!***********************************************!*\
+  !*** ./src/images/Pytania/Pyt_7/spring_2.jpg ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"images/spring_2_f44f4709f68074771c627bb4d4622084.jpg\";\n\n//# sourceURL=webpack:///./src/images/Pytania/Pyt_7/spring_2.jpg?");
+
+/***/ }),
+
+/***/ "./src/images/Pytania/Pyt_7/spring_3.jpg":
+/*!***********************************************!*\
+  !*** ./src/images/Pytania/Pyt_7/spring_3.jpg ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"images/spring_3_75ffafec00184eabe0cd237a149f05eb.jpg\";\n\n//# sourceURL=webpack:///./src/images/Pytania/Pyt_7/spring_3.jpg?");
+
+/***/ }),
+
+/***/ "./src/images/Pytania/Pyt_7/summer_1.jpg":
+/*!***********************************************!*\
+  !*** ./src/images/Pytania/Pyt_7/summer_1.jpg ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"images/summer_1_90fb3f743e0355984dbf45ad1da0e9af.jpg\";\n\n//# sourceURL=webpack:///./src/images/Pytania/Pyt_7/summer_1.jpg?");
+
+/***/ }),
+
+/***/ "./src/images/Pytania/Pyt_7/summer_2.jpg":
+/*!***********************************************!*\
+  !*** ./src/images/Pytania/Pyt_7/summer_2.jpg ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"images/summer_2_3e2ca0d672bfb918b38a7cd044cb70a6.jpg\";\n\n//# sourceURL=webpack:///./src/images/Pytania/Pyt_7/summer_2.jpg?");
+
+/***/ }),
+
+/***/ "./src/images/Pytania/Pyt_7/summer_3.jpg":
+/*!***********************************************!*\
+  !*** ./src/images/Pytania/Pyt_7/summer_3.jpg ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"images/summer_3_5c7cc160e0292a60865c12ae2b9736c1.jpg\";\n\n//# sourceURL=webpack:///./src/images/Pytania/Pyt_7/summer_3.jpg?");
+
+/***/ }),
+
+/***/ "./src/images/Pytania/Pyt_7/winter_1.jpg":
+/*!***********************************************!*\
+  !*** ./src/images/Pytania/Pyt_7/winter_1.jpg ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"images/winter_1_2a3000a050121a2c52ff8e6ee75afa6e.jpg\";\n\n//# sourceURL=webpack:///./src/images/Pytania/Pyt_7/winter_1.jpg?");
+
+/***/ }),
+
+/***/ "./src/images/Pytania/Pyt_7/winter_2.jpg":
+/*!***********************************************!*\
+  !*** ./src/images/Pytania/Pyt_7/winter_2.jpg ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"images/winter_2_9555598d2d0a11651ab17975ba549575.jpg\";\n\n//# sourceURL=webpack:///./src/images/Pytania/Pyt_7/winter_2.jpg?");
+
+/***/ }),
+
+/***/ "./src/images/Pytania/Pyt_7/winter_3.jpg":
+/*!***********************************************!*\
+  !*** ./src/images/Pytania/Pyt_7/winter_3.jpg ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"images/winter_3_d7050b61dbaf3999dff44b33e09edac9.jpg\";\n\n//# sourceURL=webpack:///./src/images/Pytania/Pyt_7/winter_3.jpg?");
+
+/***/ }),
+
+/***/ "./src/images/Pytania/Pyt_8/autumm.jpg":
+/*!*********************************************!*\
+  !*** ./src/images/Pytania/Pyt_8/autumm.jpg ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"images/autumm_efde5bf86da4c7f2c39cf775847ae78b.jpg\";\n\n//# sourceURL=webpack:///./src/images/Pytania/Pyt_8/autumm.jpg?");
+
+/***/ }),
+
+/***/ "./src/images/Pytania/Pyt_8/spring.jpg":
+/*!*********************************************!*\
+  !*** ./src/images/Pytania/Pyt_8/spring.jpg ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"images/spring_e36ca96018f6aef4a3ffe68dcd366e05.jpg\";\n\n//# sourceURL=webpack:///./src/images/Pytania/Pyt_8/spring.jpg?");
+
+/***/ }),
+
+/***/ "./src/images/Pytania/Pyt_8/summer.jpg":
+/*!*********************************************!*\
+  !*** ./src/images/Pytania/Pyt_8/summer.jpg ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"images/summer_d4549b4679d5ee0237e280be52f76c90.jpg\";\n\n//# sourceURL=webpack:///./src/images/Pytania/Pyt_8/summer.jpg?");
+
+/***/ }),
+
+/***/ "./src/images/Pytania/Pyt_8/winter.jpg":
+/*!*********************************************!*\
+  !*** ./src/images/Pytania/Pyt_8/winter.jpg ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"images/winter_edf5a1e08137aa2b339b8254820b5a9e.jpg\";\n\n//# sourceURL=webpack:///./src/images/Pytania/Pyt_8/winter.jpg?");
+
+/***/ }),
+
+/***/ "./src/images/Pytania/Pyt_9/autumm.jpg":
+/*!*********************************************!*\
+  !*** ./src/images/Pytania/Pyt_9/autumm.jpg ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"images/autumm_7db068f969927d4f1bdecc1549168805.jpg\";\n\n//# sourceURL=webpack:///./src/images/Pytania/Pyt_9/autumm.jpg?");
+
+/***/ }),
+
+/***/ "./src/images/Pytania/Pyt_9/spring.jpg":
+/*!*********************************************!*\
+  !*** ./src/images/Pytania/Pyt_9/spring.jpg ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"images/spring_2dbdd763e5cb4f9019359aeef7aebd35.jpg\";\n\n//# sourceURL=webpack:///./src/images/Pytania/Pyt_9/spring.jpg?");
+
+/***/ }),
+
+/***/ "./src/images/Pytania/Pyt_9/summer.jpg":
+/*!*********************************************!*\
+  !*** ./src/images/Pytania/Pyt_9/summer.jpg ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"images/summer_b23a3513df8823475f6de1f93cb7ef5f.jpg\";\n\n//# sourceURL=webpack:///./src/images/Pytania/Pyt_9/summer.jpg?");
+
+/***/ }),
+
+/***/ "./src/images/Pytania/Pyt_9/winter.jpg":
+/*!*********************************************!*\
+  !*** ./src/images/Pytania/Pyt_9/winter.jpg ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"images/winter_1d58f7ae47a48378a1a6d47283d4d6fc.jpg\";\n\n//# sourceURL=webpack:///./src/images/Pytania/Pyt_9/winter.jpg?");
+
+/***/ }),
+
+/***/ "./src/images/afro.jpg":
+/*!*****************************!*\
+  !*** ./src/images/afro.jpg ***!
+  \*****************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"images/afro_ef2a9a30abf2338a596d360f3411a9c4.jpg\";\n\n//# sourceURL=webpack:///./src/images/afro.jpg?");
+
+/***/ }),
+
+/***/ "./src/images/fourSeasons.png":
+/*!************************************!*\
+  !*** ./src/images/fourSeasons.png ***!
+  \************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"images/fourSeasons_9b6d7652fc2b9dedd3f5286ac67f198c.png\";\n\n//# sourceURL=webpack:///./src/images/fourSeasons.png?");
+
+/***/ }),
+
+/***/ "./src/images/insta.jpeg":
+/*!*******************************!*\
+  !*** ./src/images/insta.jpeg ***!
+  \*******************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"images/insta_9e993db9e6f830cf33a83dd30f52355f.jpeg\";\n\n//# sourceURL=webpack:///./src/images/insta.jpeg?");
 
 /***/ }),
 
@@ -920,7 +1483,7 @@ eval("module.exports = __webpack_require__.p + \"1eefe591d584a83f1e7ae5f193c0728
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("module.exports = __webpack_require__.p + \"3f023fa0ddd843940a5a00015ca8cf1c.png\";\n\n//# sourceURL=webpack:///./src/images/jesien.png?");
+eval("module.exports = __webpack_require__.p + \"images/jesien_3f023fa0ddd843940a5a00015ca8cf1c.png\";\n\n//# sourceURL=webpack:///./src/images/jesien.png?");
 
 /***/ }),
 
@@ -931,7 +1494,7 @@ eval("module.exports = __webpack_require__.p + \"3f023fa0ddd843940a5a00015ca8cf1
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("module.exports = __webpack_require__.p + \"ab31da50beb3cab64b328dfbd6c7c00a.png\";\n\n//# sourceURL=webpack:///./src/images/jesien_colors.png?");
+eval("module.exports = __webpack_require__.p + \"images/jesien_colors_ab31da50beb3cab64b328dfbd6c7c00a.png\";\n\n//# sourceURL=webpack:///./src/images/jesien_colors.png?");
 
 /***/ }),
 
@@ -942,7 +1505,7 @@ eval("module.exports = __webpack_require__.p + \"ab31da50beb3cab64b328dfbd6c7c00
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("module.exports = __webpack_require__.p + \"4bd982d06b783500d8654e9ccae8d524.png\";\n\n//# sourceURL=webpack:///./src/images/lato.png?");
+eval("module.exports = __webpack_require__.p + \"images/lato_4bd982d06b783500d8654e9ccae8d524.png\";\n\n//# sourceURL=webpack:///./src/images/lato.png?");
 
 /***/ }),
 
@@ -953,7 +1516,7 @@ eval("module.exports = __webpack_require__.p + \"4bd982d06b783500d8654e9ccae8d52
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("module.exports = __webpack_require__.p + \"b4ed97edba9ccc0bd4b170c8fa6ff60d.png\";\n\n//# sourceURL=webpack:///./src/images/lato_colors.png?");
+eval("module.exports = __webpack_require__.p + \"images/lato_colors_b4ed97edba9ccc0bd4b170c8fa6ff60d.png\";\n\n//# sourceURL=webpack:///./src/images/lato_colors.png?");
 
 /***/ }),
 
@@ -964,7 +1527,7 @@ eval("module.exports = __webpack_require__.p + \"b4ed97edba9ccc0bd4b170c8fa6ff60
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("module.exports = __webpack_require__.p + \"eb7027b36e92e843d1f88bf7e7a46069.png\";\n\n//# sourceURL=webpack:///./src/images/wiosna.png?");
+eval("module.exports = __webpack_require__.p + \"images/wiosna_eb7027b36e92e843d1f88bf7e7a46069.png\";\n\n//# sourceURL=webpack:///./src/images/wiosna.png?");
 
 /***/ }),
 
@@ -975,7 +1538,7 @@ eval("module.exports = __webpack_require__.p + \"eb7027b36e92e843d1f88bf7e7a4606
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("module.exports = __webpack_require__.p + \"300333527802de0d606b60e54e3af465.png\";\n\n//# sourceURL=webpack:///./src/images/wiosna_colors.png?");
+eval("module.exports = __webpack_require__.p + \"images/wiosna_colors_300333527802de0d606b60e54e3af465.png\";\n\n//# sourceURL=webpack:///./src/images/wiosna_colors.png?");
 
 /***/ }),
 
@@ -986,18 +1549,18 @@ eval("module.exports = __webpack_require__.p + \"300333527802de0d606b60e54e3af46
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("module.exports = __webpack_require__.p + \"25c421edf4d25c729140d0068613c22f.png\";\n\n//# sourceURL=webpack:///./src/images/zima.png?");
+eval("module.exports = __webpack_require__.p + \"images/zima_25c421edf4d25c729140d0068613c22f.png\";\n\n//# sourceURL=webpack:///./src/images/zima.png?");
 
 /***/ }),
 
-/***/ "./src/images/zima_colors.png":
-/*!************************************!*\
-  !*** ./src/images/zima_colors.png ***!
-  \************************************/
+/***/ "./src/images/zima_colors1.png":
+/*!*************************************!*\
+  !*** ./src/images/zima_colors1.png ***!
+  \*************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("module.exports = __webpack_require__.p + \"901b80f46458f36bf5f9d295c1be7436.png\";\n\n//# sourceURL=webpack:///./src/images/zima_colors.png?");
+eval("module.exports = __webpack_require__.p + \"images/zima_colors1_0a108f35e408b373b8e69afce221fe14.png\";\n\n//# sourceURL=webpack:///./src/images/zima_colors1.png?");
 
 /***/ }),
 

@@ -6,9 +6,10 @@ import zima from "../images/zima.png";
 import wiosna_colors from "../images/wiosna_colors.png";
 import lato_colors from "../images/lato_colors.png";
 import jesien_colors from "../images/jesien_colors.png";
-import zima_colors from "../images/zima_colors.png";
+import zima_colors from "../images/zima_colors1.png";
 import Question from "./question";
 import './result.css'
+import {NavLink} from "react-router-dom";
 
 
 const getMostFrequentAnswerType = results => {
@@ -41,70 +42,132 @@ const renderResult = (result) => {
 
     if (result === 'wiosna') {
         return (
-            <div className='wiosna'>
-                <img src={wiosna} />
-                <img src={wiosna_colors} />
-                <h1>WIOSNA</h1>
-                <h2>clear, light, warm</h2>
-                <p>
-                    Skóra ma delikatny złocisty lub brzoskwiniowy odcień, często bywa zarumieniona, ale mimo to stosunkowo łatwo się opala, a piegi są w złocistym odcieniu
-                    Oczy mają najczęściej kolor zielony lub niebieski oraz często źrenica jest oddzielona od tęczówki złotą lub złotobrązową obwódką
-                    Włosy są jasne (w kolorze słomy, miodu lub platyny) lub brązowe o ciepłym rdzawym lub złotym połysku
-                </p>
-                <button className='comeBackButton' onClick="window.history.go(-1); return false;" >ZRÓB JESZCZE RAZ</button>
-            </div>
+            <section id="main">
+                <div className="main-width clearfix">
+                    <div className="spring">
+                        <img className="springFoto" src={wiosna}/>
+                    </div>
+                    <div className="aboutSpring">
+                        <h1><b>WIOSNA</b></h1>
+                        <h2>jasna delikatna ciepła</h2><br/>
+                        <div className="springDescription">
+
+                            <h3 className='yourColors'>CO POWINNA NOSIĆ PANI WIOSNA?</h3><br/>
+
+                            <p>Pani Wiosna najkorzystniej będzie wyglądała w kolorach występujących w naturalnym krajobrazie
+                                o tej porze roku. Obserwuj w jakich barwach przyroda budzi się po zimie. Jaki kolor mają
+                                pierwsze pączki na drzewach, młoda trawa, w jakich odcieniach kwitną drzewa owocowe. Czerp
+                                kolorystykę swoich ubrań z otaczającej Cię przyrody. Twoją urodę najlepiej uwydatnią świeże,
+                                czyste i soczyste kolory w ciepłych odcieniach. Uwielbiasz żółty? Pomyśl o żółtych tulipanach
+                                i żonkilach. Nie zapomnij o zieleniach, jesteś stworzona, by je nosić. Dobrze będziesz
+                                wyglądać w zieleni lipy, trawy, niedojrzałych jabłek, jak również w żółtozielonych kolorach.
+                                Nie zapomnij też o brązach, beżach, turkusach oraz morelowych i łososiowych odcieniach.
+                                Doskonale podkreślą twoje naturalne piękno.</p><br/>
+
+                            <p className='yourColors'>TWOJE KOLORY</p><br/>
+                            <img className="springColors" src={wiosna_colors} />
+                            <NavLink to="/"><button className='comeBackButton'>JESZCZE RAZ</button></NavLink>
+                        </div>
+                    </div>
+                </div>
+            </section>
         )
     } else if (result === 'lato') {
         return (
-            <div className='lato'>
-                <img src={lato} />
-                <img src={lato_colors} />
-                <h1>LATO</h1>
-                <p>
-                    Skóra jest albo blada i porcelanowa z wyraźnie przebłyskującymi naczynkami o zimnym odcieniu, albo oliwkowa o jasnym, chłodnym odcieniu
-                    Piegi są w kolorze szarym lub szarobrunatnym
-                    Oczy wydają się mieć popielatą oprawę i są niebieskie, zielone lub szare
-                    Włosy są najczęściej w popielatym kolorze lub brązowym z wyraźnym popielatym połyskiem
-                </p>
-                <button className='comeBackButton' onClick="window.history.go(-1); return false;" >ZRÓB JESZCZE RAZ</button>
-            </div>
+            <section id="main">
+                <div className="main-width clearfix">
+                    <div className="summer">
+                        <img className="summerFoto" src={lato}/>
+                    </div>
+                    <div className="aboutSummer">
+                        <h1><b>LATO</b></h1>
+                        <h2>jasne delikatne stonowane</h2><br/>
+                        <div className="summerDescription">
+
+                            <h3 className='yourColors'>CO POWINNA NOSIĆ PANI LATO?</h3><br/>
+
+                            <p>Pani Lato jest delikatnym i chłodnym typem urody, co sprawia, że jej skóra wydaje się
+                                niezwykle szlachetna i krucha. Kolory ubrań, które najkorzystniej będą podkreślały
+                                urodę Pani Lata to kolory występujące w naturze o tej porze roku. Zwróć uwagę jak
+                                zmienia się trawa z wiosennej soczystej zieleni na przytłumioną, spaloną słońcem.
+                                Latem łąka leśnych kwiatów jest różnokolorowa, ale wszystkie barwy są rozbielone,
+                                pastelowe, wypłowiałe od ostrego słońca, jakby przypudrowane. Uwielbiasz żółty?
+                                Wybierz bluzkę w kolorze cytrynowym. Nie zapomnij o niebieskim,
+                                niemalże we  wszystkich jego odcieniach będziesz wyglądać dobrze. Podobnie w
+                                rozbielonych odcieniach fioletów. A może kochasz zielenie? Wybierz odcienie o
+                                niebieskim zabarwieniu – morski, zieleń butelkową i szarą zieleń.</p><br/>
+
+                            <h3 className='yourColors'>TWOJE KOLORY</h3><br/>
+                            <img className="summerColors" src={lato_colors} />
+                            <NavLink to="/"><button className='comeBackButton'>JESZCZE RAZ</button></NavLink>
+                        </div>
+                    </div>
+                </div>
+            </section>
         )
-    } else if (result === "jesien") {
+    } else if (result === "jesień") {
         return (
-            <div className='jesien'>
-                <img src={jesien} />
-                <img src={jesien_colors} />
-                <h1>JESIEŃ</h1>
-                <p>
-                    Skóra jest jasna o ciepłej barwie (w kolorze kości słoniowej, w złocisto-beżowym lub brzoskwiniowym odcieniu) oraz ma skłonność do powstawania piegów w rudym kolorze
-                    Opalanie często kończy się zaczerwienieniem skóry
-                    Oczy mają ciepłe barwy (topaz, brąz, złoty brąz, zieleń) lub złotawe plamki
-                    Włosy mają ciepłą barwę z wyraźnym złotym pobłyskiem: od blondu, przez kasztanowy i marchewkowy aż po ciepły brąz
-                </p>
-                <button className='comeBackButton' onClick="window.history.go(-1); return false;" >ZRÓB JESZCZE RAZ</button>
+            <section id="main">
+                <div className="main-width clearfix">
+                    <div className="autumm">
+                        <img className="autummFoto" src={jesien}/>
+                    </div>
+                    <div className="aboutAutumm">
+                        <h1><b>JESIEŃ</b></h1>
+                        <h2>delikatna ciepła głęboka</h2><br/>
+                        <div className="autummDescription">
 
+                            <h3 className='yourColors'>CO POWINNA NOSIĆ PANI JESIEŃ?</h3><br/>
+                            <p>Jesienne kolory jesieni są ciepłe i zgaszone, w otoczeniu których rozkwita Pani Jesień.
+                                Zainspiruj się krajobrazem występującym w przyrodzie o tej porze roku. Pomyśl o Polskiej
+                                Złotej Jesieni, przebarwionych na żółto i czerwono liściach w parku, spadających kasztanach,
+                                zgniłej zieleni. Marzy Ci się zielony sweter? Wybierz w kolorze khaki lub oliwkowym.
+                                Chciałabyś założyć coś czerwonego? Najlepsza będzie dla Ciebie ceglana czerwień. Jesteś
+                                jedynym typem urody który przepięknie wygląda w pomarańczu. Pamiętaj o nim – jeśli nie
+                                możesz do pracy nosić ubrań w tym kolorze, przemyć go w dodatkach. Zamiast czerni wybieraj
+                                brąz, zamiast szarego – beż, białe bluzki i topiki zastąp ecru i odcieniem kości słoniowej.
+                                Nie zapomnij też o rudościach, intensywnych żółtych i ciemnych turkusach, które podkreślą
+                                twoją urodę.</p><br/>
 
-            </div>
+                            <h3 className='yourColors'>TWOJE KOLORY</h3><br/>
+                            <img className="autummColors" src={jesien_colors} />
+                            <NavLink to="/"><button className='comeBackButton'>JESZCZE RAZ</button></NavLink>
+                        </div>
+                    </div>
+                </div>
+            </section>
         )
     } else {
         return (
-            <div className='zima'>
-                <div className='clearfix'>
-                <img src={zima} />
 
-                <h1>ZIMA</h1>
-                <p>
-                    Skóra jest bardzo jasna, porcelanowa i sprawia wrażenie przezroczystej (w wersji północnej) lub ma zdecydowany chłodny odcień oliwki (w wersji południowej); rzadko pojawia się na niej rumieniec
-                    Posiadaczka tej urody może mieć problemy z opalaniem się
-                    Oczy mają ciemną oprawę i błyszczą intensywnym blaskiem; najczęściej są w zdecydowanych kolorach: zielonym, błękitnym, orzechowym lub ciemnobrązowym
-                    Włosy są ciemne, ze zdecydowanym granatowym lub popielatym połyskiem
-                </p>
+            <section id="main">
+                <div className="main-width clearfix">
+                    <div className="winter">
+                        <img className="winterFoto" src={zima}/>
+                    </div>
+                    <div className="aboutWinter">
+                        <h1><b>ZIMA</b></h1>
+                        <h2>czysta głęboka zimna</h2><br/>
+                        <div className="winterDescription">
 
-                    <img src={zima_colors} />
+                            <h3 className='yourColors'>CO POWINNA NOSIĆ PANI ZIMA?</h3><br/>
+                            <p>Krajobraz zimą jest kontrastowy. Na tle białego śniegu wiecznie zielone choinki wydają się być bardziej zielone.
+                                O zachodzie słońca na niebie widoczna jest feeria barw granatowo fioletowych. W takich kolorach też najpiękniej
+                                wygląda Pani Zima. Lubisz niebieski? Wybierz lodowy błękit. Masz ochotę na czerwony dodatek – pomyśl o kolorze
+                                czerwonego wina, które sączysz przy kominku w długie zimowe wieczory.
 
-                <button className='comeBackButton'>ZRÓB JESZCZE RAZ</button>
-            </div>
-            </div>
+                                Twój zielony to zieleń butelkowa. Dobrze będziesz wyglądać w intensywnych, chłodnych kolorach jak fuksja czy
+                                kobalt. Biała bluzka? Wyłącznie w śnieżnobiałym odcieniu, zapomnij o kości słoniowej czy ecru. Jesteś
+                                miłośniczką brązu? Wybierz odcień gorzkiej czekolady, który podkreśli Twoją urodę. I pamiętaj o kontrastach,
+                                by Twój wizerunek był równie kontrastowy jak zimowy krajobraz.</p><br/>
+
+                            <h3 className='yourColors'>TWOJE KOLORY</h3><br/>
+                            <img className="winterColors" src={zima_colors} />
+                            <NavLink to="/"><button className='comeBackButton'>JESZCZE RAZ</button></NavLink>
+                        </div>
+                    </div>
+                </div>
+            </section>
         )
     };
 };
