@@ -156,7 +156,7 @@
     },
     {
       "id": 8,
-      "question": "Jaki kolor szminki podkreśla TWOJĄ TWARZ?",
+      "question": "Jaki kolor szminki podkreśla TWOJĄ URODĘ?",
       "answers": [
         {
           "type": "wiosna",
@@ -182,7 +182,7 @@
     },
     {
       "id": 9,
-      "question": "Do której z poniższych gwiazd jesteś najbardziej podobna?",
+      "question": "Czy mas?",
       "answers": [
         {
           "type": "wiosna",

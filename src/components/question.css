@@ -15,7 +15,7 @@ html, body {
     margin-left: 150px;
     text-align: left;
     padding-top: 100px;
-    padding-left: 180px;
+    /*padding-left: 180px;*/
     cursor: pointer;
     background: white;
     position: center;
