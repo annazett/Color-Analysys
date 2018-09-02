@@ -160,12 +160,12 @@
       "answers": [
         {
           "type": "wiosna",
-          "content": "LIGHT: odcienie łososiowe, brzoskwiniowe, jasny brąz, a także koral i czerwień „rakową”",
+          "content": "Transparentne błyszczyki lub pomadki - koralowe, łososiowe, brzoskwiniowe. Czerwień - ciepła, makowa.",
           "img": "Pytania/Pyt_8/spring.jpg"
         },
         {
           "type": "lato",
-          "content": "DEEP: intensywnych, wpadających w błękit różach, wiśni, burgundzie, chłodnych odcieniach czerwieni oraz w fuksji",
+          "content": "Chłodne odcienie różu, wypłowiały brąz lub chłodny beż, a także delikatna malina, wiśnia lub bordo.",
           "img": "Pytania/Pyt_8/summer.jpg"
         },
         {
@@ -175,33 +175,33 @@
         },
         {
           "type": "zima",
-          "content": "COOL: Dobrze prezentują się w zasadzie w każdym wyrazistym odcieniu, dzięki czemu mogą sięgać po subtelne, lodowe odcienie róży, a także amarant, purpurę, karmin oraz krwiste odcienie czerwieni i brązy",
+          "content": "Zimne odcienie czerwieni i różu: arbuzowy, winny, szkarłatny, fuksja.",
           "img": "Pytania/Pyt_8/winter.jpg"
         }
       ]
     },
     {
       "id": 9,
-      "question": "Czy mas?",
+      "question": "Urodą najbardziej przypominasz...",
       "answers": [
         {
           "type": "wiosna",
-          "content": "SOFT and WARM: Drew Barrymore and Gisele Bundchen",
+          "content": "Taylor Swift, Scarlett Johansson lub Michelle Williams?",
           "img": "Pytania/Pyt_9/spring.jpg"
         },
         {
           "type": "lato",
-          "content": "SOFT and COOL: Ellen Pompeo and Jennifer Aniston",
+          "content": "Sarah Jessica Parker, Cara Delevingne lub Jennifer Aniston?",
           "img": "Pytania/Pyt_9/summer.jpg"
         },
         {
           "type": "jesień",
-          "content": "WARM and PEACHY: Amy Adams and Michelle Williams",
+          "content": "Natalie Portman, Halle Berry lub Kendall Jenner?",
           "img": "Pytania/Pyt_9/autumm.jpg"
         },
         {
           "type": "zima",
-          "content": "COOL and BRIGHT: Liv Tyler and Selma Blair",
+          "content": "Katy Perry, Megan Fox lub Courtney Cox?",
           "img": "Pytania/Pyt_9/winter.jpg"
         }
 
