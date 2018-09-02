@@ -18,7 +18,7 @@ html, body {
 /*WIOSNA*/
 
 .spring {
-    width: 1300px;
+    width: 1060px;
     margin: 0 auto;
     padding-left: 65px;
     padding-right: 65px;
@@ -26,7 +26,7 @@ html, body {
 
 .springFoto {
     width: auto;
-    height: 700px;
+    height: 550px;
     /*margin-top: 70px;*/
     margin-left: -65px;
     float: left;
@@ -38,46 +38,55 @@ html, body {
     float: left;
     margin-top: 40px;
     margin-left: 50px;
-    width: 650px;
+    width: 510px;
     text-align: justify;
     background: white;
 }
 
 .aboutSpring h1 {
     word-spacing: 3px;
-    font-size: 50px;
+    font-size: 40px;
     color: 	#808080;
     font-weight: 500;
     text-align: right;
+    font-family: 'Lato';
+    padding-right: 10px;
 }
 
 .aboutSpring h2 {
     word-spacing: 3px;
-    font-size: 25px;
+    font-size: 20px;
     color: 	#808080;
     font-weight: 300;
     text-align: end;
+    font-family: 'Lato';
+    padding-right: 10px;
 }
 
 .springDescription {
     padding-top: 10px;
     padding-left: 10px;
+    padding-right: 10px;
 }
 
 .springDescription p {
-    font-size: 18px;
+    font-size: 12px;
+    font-family: 'Lato';
 }
 
 .springColors {
-    width: 620px;
+    width: 500px;
     margin-top: -2px;
     height: auto;
+    font-family: 'Lato';
+    padding-right: 10px;
 }
+
 
 /*SUMMER*/
 
 .summer {
-    width: 1300px;
+    width: 1060px;
     margin: 0 auto;
     padding-left: 65px;
     padding-right: 65px;
@@ -85,7 +94,7 @@ html, body {
 
 .summerFoto {
     width: auto;
-    height: 700px;
+    height: 550px;
     /*margin-top: 70px;*/
     margin-left: -65px;
     float: left;
@@ -97,47 +106,55 @@ html, body {
     float: left;
     margin-top: 40px;
     margin-left: 50px;
-    width: 650px;
+    width: 510px;
     text-align: justify;
     background: white;
 }
 
 .aboutSummer h1 {
     word-spacing: 3px;
-    font-size: 50px;
+    font-size: 40px;
     color: 	#808080;
     font-weight: 500;
     text-align: right;
+    font-family: 'Lato';
+    padding-right: 10px;
 }
 
 .aboutSummer h2 {
     word-spacing: 3px;
-    font-size: 25px;
+    font-size: 20px;
     color: 	#808080;
     font-weight: 300;
     text-align: end;
+    font-family: 'Lato';
+    padding-right: 10px;
 }
 
 .summerDescription {
     padding-top: 10px;
     padding-left: 10px;
+    padding-right: 10px;
 }
 
 .summerDescription p {
-    font-size: 18px;
+    font-size: 12px;
+    font-family: 'Lato';
 }
 
 .summerColors {
-    width: 620px;
+    width: 500px;
     margin-top: -2px;
     height: auto;
+    font-family: 'Lato';
+    padding-right: 10px;
 }
 
 
 /*AUTUMM*/
 
 .autumm {
-    width: 1300px;
+    width: 1060px;
     margin: 0 auto;
     padding-left: 65px;
     padding-right: 65px;
@@ -145,7 +162,7 @@ html, body {
 
 .autummFoto {
     width: auto;
-    height: 700px;
+    height: 550px;
     /*margin-top: 70px;*/
     margin-left: -65px;
     float: left;
@@ -157,47 +174,55 @@ html, body {
     float: left;
     margin-top: 40px;
     margin-left: 50px;
-    width: 650px;
+    width: 510px;
     text-align: justify;
     background: white;
 }
 
 .aboutAutumm h1 {
     word-spacing: 3px;
-    font-size: 50px;
+    font-size: 40px;
     color: 	#808080;
     font-weight: 500;
     text-align: right;
+    font-family: 'Lato';
+    padding-right: 10px;
 }
 
 .aboutAutumm h2 {
     word-spacing: 3px;
-    font-size: 25px;
+    font-size: 20px;
     color: 	#808080;
     font-weight: 300;
     text-align: end;
+    font-family: 'Lato';
+    padding-right: 10px;
 }
 
 .autummDescription {
     padding-top: 10px;
     padding-left: 10px;
+    padding-right: 10px;
 }
 
 .autummDescription p {
-    font-size: 18px;
+    font-size: 12px;
+    font-family: 'Lato';
 }
 
 .autummColors {
-    width: 620px;
+    width: 500px;
     margin-top: -2px;
     height: auto;
+    font-family: 'Lato';
+    padding-right: 10px;
 }
 
 
 /*ZIMA*/
 
 .winter {
-    width: 1300px;
+    width: 1060px;
     margin: 0 auto;
     padding-left: 65px;
     padding-right: 65px;
@@ -205,7 +230,7 @@ html, body {
 
 .winterFoto {
     width: auto;
-    height: 700px;
+    height: 550px;
     /*margin-top: 70px;*/
     margin-left: -65px;
     float: left;
@@ -217,40 +242,48 @@ html, body {
     float: left;
     margin-top: 40px;
     margin-left: 50px;
-    width: 650px;
+    width: 510px;
     text-align: justify;
     background: white;
 }
 
 .aboutWinter h1 {
     word-spacing: 3px;
-    font-size: 50px;
+    font-size: 40px;
     color: 	#808080;
     font-weight: 500;
     text-align: right;
+    font-family: 'Lato';
+    padding-right: 10px;
 }
 
 .aboutWinter h2 {
     word-spacing: 3px;
-    font-size: 25px;
+    font-size: 20px;
     color: 	#808080;
     font-weight: 300;
     text-align: end;
+    font-family: 'Lato';
+    padding-right: 10px;
 }
 
 .winterDescription {
     padding-top: 10px;
     padding-left: 10px;
+    padding-right: 10px;
 }
 
 .winterDescription p {
-    font-size: 18px;
+    font-size: 12px;
+    font-family: 'Lato';
 }
 
 .winterColors {
-    width: 620px;
+    width: 500px;
     margin-top: -2px;
     height: auto;
+    font-family: 'Lato';
+    padding-right: 10px;
 }
 
 
@@ -272,5 +305,6 @@ html, body {
 .yourColors {
     color: dimgrey;
     font-weight: bold;
+    font-size: 14px;
 }
 
