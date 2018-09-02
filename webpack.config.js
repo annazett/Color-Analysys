@@ -33,10 +33,10 @@ module.exports = {
       extensions: ['*', '.js', '.jsx']
   },
   output: {
-    path: __dirname + "/dist",
+    path: __dirname + "/docs",
     filename: "bundle.js"
   },
     devServer: {
-        contentBase: './dist'
+        contentBase: './docs'
     }
 }
